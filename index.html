@@ -105,7 +105,7 @@ p{max-width:62ch}
 .ficha{position:relative;max-width:760px;background:var(--papel);color:var(--tinta);border:3px solid #05060F;box-shadow:8px 8px 0 rgba(0,0,0,.45);padding:24px 24px 18px}
 .ficha header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;border-bottom:3px double var(--tinta);padding-bottom:10px;margin-bottom:12px}
 .ficha header h3{font-size:38px;margin:0;color:var(--tinta)}
-.ficha header small{font-family:var(--placa);font-size:8px}
+.ficha header small{font-family:var(--mono);font-size:17px;line-height:1;letter-spacing:1px}
 .campo{display:grid;grid-template-columns:44px 1fr;gap:12px;padding:12px 0;border-bottom:2px dashed #B9B2A0}
 .campo:last-of-type{border-bottom:0}
 .campo .q{width:44px;height:44px;border:3px solid var(--tinta);display:grid;place-items:center;font-family:var(--titulo);font-size:34px;color:var(--tijolo)}
@@ -188,7 +188,7 @@ p{max-width:62ch}
 .prog p{margin:0;color:var(--texto2);font-size:15px}
 
 /* Caixas de correio */
-.caixas{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.caixas{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
 .caixa{background:#6E7389;border:4px solid #05060F;box-shadow:6px 6px 0 rgba(0,0,0,.45);padding:12px;color:#0F1124}
 .caixa .fenda{height:10px;background:#05060F;margin:0 18px 10px}
 .caixa .etiqueta{background:var(--papel);border:2px solid #05060F;padding:8px 10px}
@@ -580,7 +580,7 @@ async function gerarChave(p){
   ctx.fillStyle="#F2ECDD";ctx.fillRect(150,200,780,620);ctx.strokeStyle="#05060F";ctx.lineWidth=10;ctx.strokeRect(150,200,780,620);
   ctx.fillStyle="#10132A";ctx.beginPath();ctx.arc(540,260,26,0,7);ctx.fill();
   ctx.fillStyle="#C9A24A";ctx.fillRect(530,60,20,150);ctx.fillRect(470,40,140,30);
-  ctx.textAlign="center";ctx.fillStyle="#C0623B";ctx.font='30px "Press Start 2P", monospace';ctx.fillText("EDIFÍCIO 8 BITS",540,350);
+  ctx.textAlign="center";ctx.fillStyle="#C0623B";ctx.font='76px "Jersey 10", monospace';ctx.fillText("EDIFÍCIO 8 BITS",540,355);
   if(p.apto){ctx.fillStyle="#232744";ctx.font='200px "Jersey 10", monospace';ctx.fillText(String(p.apto),540,560);
     ctx.font='34px "Press Start 2P", monospace';ctx.fillText("BLOCO "+p.bloco,540,625)}
   else{ctx.fillStyle="#232744";ctx.font='120px "Jersey 10", monospace';ctx.fillText("BARRACA "+p.fila,540,530);
