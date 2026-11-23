@@ -254,11 +254,22 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
 #cenaPiscina,#cenaSalao{width:100%;image-rendering:pixelated;display:block;border:3px solid #05060F;background:#1B1A33}
 .obra-piscina .barra{border-color:#7FC8F8;background:#0B1830}
 .obra-piscina .barra i{background:repeating-linear-gradient(90deg,#3FA7D6 0 6px,#2C86B3 6px 12px)}
+.mural-tit{margin:14px 0 6px;font-size:14px}
+.mural{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:3px}
+.mural li{font-family:var(--mono);font-size:16px;line-height:1;background:#A6512F;color:#F2ECDD;padding:5px 8px;border:2px solid #6E3520;box-shadow:inset 0 -2px 0 rgba(0,0,0,.25)}
+.mural li.vaga{background:transparent;border-style:dashed;border-color:var(--linha);color:var(--texto2);box-shadow:none}
+.placa-bronze{margin:26px auto 0;max-width:560px;text-align:center;padding:18px 20px;background:linear-gradient(180deg,#C9924A,#8E5A24);border:4px solid #5C3A14;box-shadow:inset 0 0 0 3px #E2B46E,6px 6px 0 rgba(0,0,0,.45);color:#2B1A08}
+.placa-bronze .pb-tit{font-family:"Press Start 2P",monospace;font-size:11px;letter-spacing:1px;display:block}
+.placa-bronze .pb-sub{margin:6px 0 10px;font-size:13px;font-style:italic;opacity:.8}
+.placa-bronze ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px}
+.placa-bronze li{font-family:var(--mono);font-size:22px;line-height:1.1;text-shadow:0 1px 0 #E2B46E}
+.placa-bronze li.vaga{opacity:.55}
 .convidados{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .convidados li{font-family:var(--mono);font-size:20px;line-height:1;background:var(--parede);border:2px solid var(--janela);color:var(--janela);padding:6px 10px}
 .convidados li.vaga{border-style:dashed;border-color:var(--linha);color:var(--texto2)}
 .boletos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:12px}
 @media (max-width:860px){.boletos{grid-template-columns:1fr}}
+@media (min-width:861px){.boletos{row-gap:0}.boletos .boleto{grid-row:span 6;grid-template-rows:subgrid;row-gap:0}}
 .boleto{background:var(--papel);color:var(--tinta);border:3px solid #05060F;box-shadow:6px 6px 0 rgba(0,0,0,.45);padding:0 0 12px;display:grid;align-content:start}
 .boleto header{display:flex;justify-content:space-between;gap:8px;font-family:var(--placa);font-size:7px;background:var(--tinta);color:var(--papel);padding:8px 10px;line-height:1.6}
 .boleto h4{font-family:var(--titulo);font-weight:400;font-size:32px;line-height:1;margin:12px 14px 2px}
@@ -269,7 +280,7 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
 .boleto{position:relative;overflow:hidden}
 .boleto .valor .ap{display:block;font-family:var(--texto-f,inherit);font-size:18px;color:var(--tinta);letter-spacing:.5px;margin-bottom:2px}
 .boleto .piada{margin:0 14px 8px;font-size:13px;line-height:1.25;opacity:.75;font-style:italic}
-.boleto .valor{position:relative}.boleto .selo-opc{position:absolute;right:0;top:50%;margin-top:-16px;line-height:1.4;transform:rotate(-14deg);font-family:var(--placa);font-size:13px;letter-spacing:2px;color:#C41E2A;border:3px solid #C41E2A;padding:6px 8px;opacity:.38;pointer-events:none;box-shadow:inset 0 0 0 2px rgba(196,30,42,.35)}
+.selo-opc{display:inline-block;margin:-2px 0 18px;padding:5px 10px;border:3px solid var(--tijolo);color:var(--tijolo);font-family:"Press Start 2P",monospace;font-size:11px;letter-spacing:1px;transform:rotate(-3deg);opacity:.9}
 .boletos-mensal{margin-top:18px;display:flex;flex-wrap:wrap;align-items:center;gap:12px 16px}
 .boletos-mensal p{margin:0;font-size:15px;opacity:.85}
 .destaque-boleto{border-color:var(--tijolo);transform:translateY(-6px)}
@@ -397,27 +408,35 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
 
       <div class="lazer">
         <div class="obra-piscina">
-          <div class="obra-cab"><span class="ao-vivo" style="background:var(--tijolo)">OBRA EM ANDAMENTO</span><h3 id="metaNome">Piscina do condomínio</h3></div>
-          <canvas id="cenaPiscina" width="128" height="64" aria-label="Piscina enchendo de água conforme o apoio chega"></canvas>
-          <div class="barra" role="progressbar" aria-label="Arrecadação da meta" aria-valuemin="0" aria-valuemax="100" id="barraMeta"><i id="barraMetaI"></i></div>
-          <p class="legenda" id="legMeta"></p>
-          <p class="legenda">Bateu a meta? A piscina é inaugurada num episódio especial, para todo mundo, apoiador ou não.</p>
+          <div class="obra-cab"><span class="ao-vivo" style="background:var(--tijolo)">EM BREVE</span><h3 id="metaNome">Piscina do condomínio</h3></div>
+          <canvas id="cenaPiscina" width="128" height="64" aria-label="Terreno da futura piscina do condomínio"></canvas>
+          <div class="barra" role="progressbar" aria-label="Arrecadação da meta" aria-valuemin="0" aria-valuemax="100" id="barraMeta" hidden><i id="barraMetaI"></i></div>
+          <p class="legenda" id="legMeta" hidden></p>
+          <p class="legenda">Ainda está no papel. Quando a obra começar, ela aparece num episódio e é inaugurada para todo mundo, apoiador ou não.</p>
+          <h4 class="mural-tit">Mural de tijolos da obra</h4>
+          <ul class="mural" id="muralTijolos"></ul>
         </div>
         <div class="salao">
           <canvas id="cenaSalao" width="160" height="72" aria-label="Salão de festas com os apoiadores dançando"></canvas>
           <h3 style="margin-top:14px">Lista de convidados do salão</h3>
-          <p class="legenda">Quem apoia entra na festa e ganha <b style="color:var(--janela)">janela dourada</b> no prédio.</p>
+          <p class="legenda">Quem apoia a partir de R$ 5 entra na festa e, se for morador, ganha <b style="color:var(--janela)">janela dourada</b> no prédio.</p>
           <ul class="convidados" id="listaConvidados"></ul>
         </div>
       </div>
 
-      <h3 style="margin-top:40px">Boletos do condomínio (de mentira)</h3>
-      <p class="legenda" style="margin-top:-4px">Ninguém é obrigado. Escolha um, pague o quanto quiser no LivePix e escreva seu @ na mensagem.</p>
+      <div class="placa-bronze">
+        <span class="pb-tit">PLACA DE BENFEITORES</span>
+        <p class="pb-sub">Com gratidão do condomínio</p>
+        <ul id="listaBenfeitores"></ul>
+      </div>
+
+      <h3 style="margin-top:40px">Boletos do condomínio</h3>
+      <span class="selo-opc">OPCIONAL</span>
       <div class="boletos">
         <article class="boleto">
           <header><span>EDIFÍCIO 8 BITS</span><span>VENCIMENTO: NUNCA</span></header>
           <h4>Taxa extra da piscina</h4>
-          <div class="valor"><span class="ap">a partir de</span>R$ 2<span class="selo-opc" aria-hidden="true">OPCIONAL</span></div>
+          <div class="valor"><span class="ap">a partir de</span>R$ 2</div>
           <ul><li>Seu nome num tijolo da obra da piscina</li></ul>
           <p class="piada">Multa por atraso: nenhuma. O síndico ficou bravo.</p>
           <div class="cod" aria-hidden="true"></div>
@@ -425,7 +444,7 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
         <article class="boleto destaque-boleto">
           <header><span>EDIFÍCIO 8 BITS</span><span>VENCIMENTO: NUNCA</span></header>
           <h4>Rateio da janela</h4>
-          <div class="valor"><span class="ap">a partir de</span>R$ 5<span class="selo-opc" aria-hidden="true">OPCIONAL</span></div>
+          <div class="valor"><span class="ap">a partir de</span>R$ 5</div>
           <ul><li>Janela dourada no prédio</li><li>Nome na lista de convidados do salão</li></ul>
           <p class="piada">Juros: zero. Cafezinho na portaria: incluso.</p>
           <div class="cod" aria-hidden="true"></div>
@@ -433,15 +452,14 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
         <article class="boleto">
           <header><span>EDIFÍCIO 8 BITS</span><span>VENCIMENTO: NUNCA</span></header>
           <h4>Fundo do síndico de honra</h4>
-          <div class="valor"><span class="ap">a partir de</span>R$ 15<span class="selo-opc" aria-hidden="true">OPCIONAL</span></div>
-          <ul><li>Nome na placa de benfeitores do hall</li><li>Uma área do condomínio com seu nome (“Quadra do Fulano”)</li></ul>
+          <div class="valor"><span class="ap">a partir de</span>R$ 15</div>
+          <ul><li>Nome na placa de benfeitores do hall</li><li>Nome nos créditos do próximo episódio</li></ul>
           <p class="piada">Sem fiador, sem vistoria, sem papelada.</p>
           <div class="cod" aria-hidden="true"></div>
         </article>
       </div>
       <div class="boletos-mensal">
         <p>Prefere apoiar todo mês? No LivePix também dá para escolher a opção mensal.</p>
-        <a class="btn" href="https://livepix.gg/edificio8bits">Apoiar no LivePix</a>
       </div>
 
       <div class="combinado">
@@ -594,7 +612,9 @@ fetch("data/site.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("HT
  .catch(e=>{console.error(e);document.body.insertAdjacentHTML("afterbegin",'<div class="aviso">Não consegui carregar a lista de moradores. Recarregue a página.</div>')});
 function iniciar(DADOS){
 /* Nada é recalculado: apto, bloco, fundador e fila vêm do moradores.csv */
-const pessoas=DADOS.moradores.map((m,i)=>({nome:m.nome,ig:m.ig,prof:m.profissao,bloco:m.bloco,apto:m.apto,fila:m.fila,fundador:m.fundador,status:m.status,apoio:!!m.apoiador,ordem:i+1}));
+const HOJE=new Date().toLocaleDateString("sv-SE");/* AAAA-MM-DD: só vale apoio com valido_ate >= hoje */
+const APOIO=(DADOS.apoiadores||[]).filter(a=>a&&a.ate&&a.ate>=HOJE);
+const pessoas=DADOS.moradores.map((m,i)=>({nome:m.nome,ig:m.ig,prof:m.profissao,bloco:m.bloco,apto:m.apto,fila:m.fila,fundador:m.fundador,status:m.status,apoio:!!(m.apoio&&m.apoio.ate>=HOJE&&m.apoio.nivel!=="tijolo"),ordem:i+1}));
 const noPredio=pessoas.filter(p=>p.status!=="fila"&&p.apto),naFila=pessoas.filter(p=>p.fila).sort((a,b)=>a.fila-b.fila),total=pessoas.length;
 const porApto={};noPredio.forEach(p=>{if(p.bloco==="A")porApto[p.apto]=p});
 const RES={};Object.entries(DADOS.reservados).forEach(([k,v])=>{const[b,a]=k.split("-");if(b==="A")RES[+a]=v});
@@ -796,11 +816,11 @@ document.getElementById("listaElenco").innerHTML=DADOS.elenco.map(x=>'<div class
     const h=Math.round(30*pct/100),y=52-h;pc.fillStyle="#3FA7D6";pc.fillRect(18,y,92,h);
     pc.fillStyle="#9FDBF5";for(let x=18+(t%6);x<110;x+=6)pc.fillRect(x,y,3,1);
     pc.fillStyle="#C0623B";pc.fillRect(100,10,2,12);pc.fillRect(96,10,10,2);
-    pc.fillStyle="#F2ECDD";pc.fillRect(22,8,30,7);pc.fillStyle="#E63946";pc.font="bold 6px monospace";pc.fillText("EM OBRA",23,14);
+    pc.fillStyle="#F2ECDD";pc.fillRect(22,8,34,7);pc.fillStyle="#E63946";pc.font="bold 6px monospace";pc.fillText("EM BREVE",23,14);
     pc.fillStyle=t%2?"#FFD25A":"#7A6A3A";pc.fillRect(116,40,3,3);pc.fillStyle="#4A4F66";pc.fillRect(117,43,1,9);}
   const sc=document.getElementById("cenaSalao").getContext("2d");sc.imageSmoothingEnabled=false;
   const cores=["#E63946","#4A7BD0","#4E9F5B","#C0623B","#FFD25A","#9B5DE5"];
-  const conv=pessoas.filter(p=>p.apoio);
+  const conv=APOIO.filter(a=>a.nivel!=="tijolo");
   function salao(t){sc.fillStyle="#2A1E3A";sc.fillRect(0,0,160,72);sc.fillStyle="#3A2A50";sc.fillRect(0,54,160,18);
     for(let x=0;x<160;x+=8)for(let y=56;y<72;y+=8){sc.fillStyle=((x+y)/8)%2?"#3A2A50":"#4A3866";sc.fillRect(x,y,8,8)}
     for(let i=0;i<16;i++){const x=6+i*10,y=8+(i%2?3:0);sc.fillStyle="#05060F";sc.fillRect(x,y-1,1,1);sc.fillStyle=(i+t)%3===0?"#FFF1C1":cores[i%cores.length];sc.fillRect(x,y,2,2)}
@@ -812,6 +832,8 @@ document.getElementById("listaElenco").innerHTML=DADOS.elenco.map(x=>'<div class
     sc.fillStyle="#9FDBF5";sc.fillRect(132,30,16,22);sc.fillStyle="#05060F";sc.fillRect(136,34,8,2);sc.fillRect(136,40,8,2);sc.fillStyle=t%2?"#E63946":"#4E9F5B";sc.fillRect(138,46,4,3);}
   let t=0;piscina(0);salao(0);if(!reduzir)setInterval(()=>{t++;piscina(t);salao(t)},400);
   document.getElementById("listaConvidados").innerHTML=conv.map(p=>'<li>'+esc(p.nome)+'</li>').join("")+'<li class="vaga">seu nome aqui</li>';
+  document.getElementById("muralTijolos").innerHTML=APOIO.map(p=>'<li>'+esc(p.nome)+'</li>').join("")+'<li class="vaga">seu nome aqui</li>';
+  document.getElementById("listaBenfeitores").innerHTML=APOIO.filter(a=>a.nivel==="benfeitor").map(p=>'<li>'+esc(p.nome)+'</li>').join("")+'<li class="vaga">seu nome aqui</li>';
 })();
 
 

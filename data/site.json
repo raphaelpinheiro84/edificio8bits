@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-23 20:06",
+ "gerado_em": "2026-11-23 20:37",
  "totais": {
   "inscritos": 43,
   "moradores": 21,
@@ -14,7 +14,6 @@
    "profissao": "engenheiro",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 102
   },
@@ -24,7 +23,6 @@
    "profissao": "policial do BOPE",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 103
   },
@@ -34,7 +32,6 @@
    "profissao": "caminhoneiro",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 104
   },
@@ -44,7 +41,6 @@
    "profissao": "mafioso",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 201
   },
@@ -54,7 +50,6 @@
    "profissao": "desempregado",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 202
   },
@@ -64,7 +59,6 @@
    "profissao": "motouber",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 203
   },
@@ -74,7 +68,6 @@
    "profissao": "influencer",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 204
   },
@@ -84,7 +77,6 @@
    "profissao": "melhor estoquista",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 301
   },
@@ -94,7 +86,6 @@
    "profissao": "médica",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 303
   },
@@ -104,7 +95,6 @@
    "profissao": "maconheiro",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 304
   },
@@ -114,7 +104,6 @@
    "profissao": "balconista de frios",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 401
   },
@@ -124,7 +113,6 @@
    "profissao": "coordenador McDonald’s",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 402
   },
@@ -134,7 +122,6 @@
    "profissao": "recreador",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 403
   },
@@ -144,7 +131,6 @@
    "profissao": "traficante de luxo",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 404
   },
@@ -154,7 +140,6 @@
    "profissao": "maconheiro",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 501
   },
@@ -164,7 +149,6 @@
    "profissao": "policial",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 502
   },
@@ -174,7 +158,6 @@
    "profissao": "O Pastor do cond",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 503
   },
@@ -184,7 +167,6 @@
    "profissao": "eletricista",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 504
   },
@@ -194,7 +176,6 @@
    "profissao": "eletromecânico",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 601
   },
@@ -204,7 +185,6 @@
    "profissao": "Designer gráfico",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 602
   },
@@ -214,7 +194,6 @@
    "profissao": "designer gráfico. @criagemgrafica.go",
    "status": "morador",
    "fundador": true,
-   "apoiador": false,
    "bloco": "A",
    "apto": 603
   },
@@ -224,7 +203,6 @@
    "profissao": "síndico",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 1
   },
   {
@@ -233,7 +211,6 @@
    "profissao": "fofoqueiro",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 2
   },
   {
@@ -242,7 +219,6 @@
    "profissao": "Bióloga",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 3
   },
   {
@@ -251,7 +227,6 @@
    "profissao": "SILVEIRA",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 4
   },
   {
@@ -260,7 +235,6 @@
    "profissao": "engenheiro",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 5
   },
   {
@@ -269,7 +243,6 @@
    "profissao": "suporte de ti",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 6
   },
   {
@@ -278,7 +251,6 @@
    "profissao": "segurança",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 7
   },
   {
@@ -287,7 +259,6 @@
    "profissao": "Monitor",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 8
   },
   {
@@ -296,7 +267,6 @@
    "profissao": "operador",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 9
   },
   {
@@ -305,7 +275,6 @@
    "profissao": "fabricante de iogurte",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 10
   },
   {
@@ -314,7 +283,6 @@
    "profissao": "eletrônico",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 11
   },
   {
@@ -323,7 +291,6 @@
    "profissao": "pizzaiolo kk",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 12
   },
   {
@@ -332,7 +299,6 @@
    "profissao": "mecânico",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 13
   },
   {
@@ -341,7 +307,6 @@
    "profissao": "dona de casa",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 14
   },
   {
@@ -350,7 +315,6 @@
    "profissao": "Meu Pai é o chefe",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 15
   },
   {
@@ -359,7 +323,6 @@
    "profissao": "analista de sistemas",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 16
   },
   {
@@ -368,7 +331,6 @@
    "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 17
   },
   {
@@ -377,7 +339,6 @@
    "profissao": "pisicoanalista",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 18
   },
   {
@@ -386,7 +347,6 @@
    "profissao": "Técnico CFTV",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 19
   },
   {
@@ -395,7 +355,6 @@
    "profissao": "eletricista",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 20
   },
   {
@@ -404,7 +363,6 @@
    "profissao": "Analista de Suporte",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 21
   },
   {
@@ -413,7 +371,6 @@
    "profissao": "Manutenção De Ventilador",
    "status": "fila",
    "fundador": false,
-   "apoiador": false,
    "fila": 22
   }
  ],
