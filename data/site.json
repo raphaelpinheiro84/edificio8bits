@@ -1,12 +1,429 @@
 {
- "gerado_em": "2026-11-23 12:46",
+ "gerado_em": "2026-11-23 20:06",
  "totais": {
-  "inscritos": 0,
-  "moradores": 0,
-  "fila": 0,
-  "fundadores": 0
+  "inscritos": 43,
+  "moradores": 21,
+  "fila": 22,
+  "fundadores": 21,
+  "apoiadores": 0
  },
- "moradores": [],
+ "moradores": [
+  {
+   "nome": "Luiz",
+   "ig": "luiiized",
+   "profissao": "engenheiro",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 102
+  },
+  {
+   "nome": "Luizz22",
+   "ig": "luizz_mf_22",
+   "profissao": "policial do BOPE",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 103
+  },
+  {
+   "nome": "Kauã",
+   "ig": "kaua_l0vatel",
+   "profissao": "caminhoneiro",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 104
+  },
+  {
+   "nome": "Nathan",
+   "ig": "nathanzera__7777",
+   "profissao": "mafioso",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 201
+  },
+  {
+   "nome": "Gustavo",
+   "ig": "gustavo_m1ngante",
+   "profissao": "desempregado",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 202
+  },
+  {
+   "nome": "Mike",
+   "ig": "miikesiilva18",
+   "profissao": "motouber",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 203
+  },
+  {
+   "nome": "Cauã",
+   "ig": "_eoh_kawan",
+   "profissao": "influencer",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 204
+  },
+  {
+   "nome": "Jemysson",
+   "ig": "jemysson_snts",
+   "profissao": "melhor estoquista",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 301
+  },
+  {
+   "nome": "Yasmim",
+   "ig": "yzmimlee",
+   "profissao": "médica",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 303
+  },
+  {
+   "nome": "Victor",
+   "ig": "mc_bagas_ofc",
+   "profissao": "maconheiro",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 304
+  },
+  {
+   "nome": "Carlos Eduardo",
+   "ig": "dante_skeleton",
+   "profissao": "balconista de frios",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 401
+  },
+  {
+   "nome": "Eu",
+   "ig": "emerson_campelotkd",
+   "profissao": "coordenador McDonald’s",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 402
+  },
+  {
+   "nome": "Gabriel",
+   "ig": "gabe_araujothomaz",
+   "profissao": "recreador",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 403
+  },
+  {
+   "nome": "Gustavo",
+   "ig": "gusttavo.r7",
+   "profissao": "traficante de luxo",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 404
+  },
+  {
+   "nome": "Leo",
+   "ig": "lm.sagaz",
+   "profissao": "maconheiro",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 501
+  },
+  {
+   "nome": "Helton",
+   "ig": "_velarry",
+   "profissao": "policial",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 502
+  },
+  {
+   "nome": "Pr Felipe",
+   "ig": "feliperrsouza",
+   "profissao": "O Pastor do cond",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 503
+  },
+  {
+   "nome": "Larissa",
+   "ig": "larybraga128",
+   "profissao": "eletricista",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 504
+  },
+  {
+   "nome": "João Amaro",
+   "ig": "26amaro_",
+   "profissao": "eletromecânico",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 601
+  },
+  {
+   "nome": "Juan",
+   "ig": "eudamamae22",
+   "profissao": "Designer gráfico",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 602
+  },
+  {
+   "nome": "Victor",
+   "ig": "victormedeiros82_",
+   "profissao": "designer gráfico. @criagemgrafica.go",
+   "status": "morador",
+   "fundador": true,
+   "apoiador": false,
+   "bloco": "A",
+   "apto": 603
+  },
+  {
+   "nome": "André",
+   "ig": "negobomba",
+   "profissao": "síndico",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 1
+  },
+  {
+   "nome": "Yuri",
+   "ig": "yurinyzx",
+   "profissao": "fofoqueiro",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 2
+  },
+  {
+   "nome": "Letícia",
+   "ig": "lethdu",
+   "profissao": "Bióloga",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 3
+  },
+  {
+   "nome": "ALEX",
+   "ig": "al3x_2102",
+   "profissao": "SILVEIRA",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 4
+  },
+  {
+   "nome": "Walace",
+   "ig": "wala_007_",
+   "profissao": "engenheiro",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 5
+  },
+  {
+   "nome": "Eduardo",
+   "ig": "elvis.e.d",
+   "profissao": "suporte de ti",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 6
+  },
+  {
+   "nome": "Breno",
+   "ig": "santana0689",
+   "profissao": "segurança",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 7
+  },
+  {
+   "nome": "Nicolas",
+   "ig": "nicky_developer",
+   "profissao": "Monitor",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 8
+  },
+  {
+   "nome": "Eduardo",
+   "ig": "edu_sillva7",
+   "profissao": "operador",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 9
+  },
+  {
+   "nome": "Marcio",
+   "ig": "macinhio_pb",
+   "profissao": "fabricante de iogurte",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 10
+  },
+  {
+   "nome": "Augusto",
+   "ig": "augu.x.to",
+   "profissao": "eletrônico",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 11
+  },
+  {
+   "nome": "Alisson",
+   "ig": "alisson_vitor.23",
+   "profissao": "pizzaiolo kk",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 12
+  },
+  {
+   "nome": "Ricardo",
+   "ig": "rc_ricardo_20yj",
+   "profissao": "mecânico",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 13
+  },
+  {
+   "nome": "Esmeralda",
+   "ig": "esmeraldblack",
+   "profissao": "dona de casa",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 14
+  },
+  {
+   "nome": "Samuel.artom",
+   "ig": "samuel.artom",
+   "profissao": "Meu Pai é o chefe",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 15
+  },
+  {
+   "nome": "Benko",
+   "ig": "____2k26bnk",
+   "profissao": "analista de sistemas",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 16
+  },
+  {
+   "nome": "Fael_2k",
+   "ig": "_fael_2k",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 17
+  },
+  {
+   "nome": "Nicolas Ramos",
+   "ig": "ramos_nicolas_777",
+   "profissao": "pisicoanalista",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 18
+  },
+  {
+   "nome": "Olinto",
+   "ig": "ghost_79_se",
+   "profissao": "Técnico CFTV",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 19
+  },
+  {
+   "nome": "Vitor",
+   "ig": "46.rn__",
+   "profissao": "eletricista",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 20
+  },
+  {
+   "nome": "João",
+   "ig": "joaorsosanto",
+   "profissao": "Analista de Suporte",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 21
+  },
+  {
+   "nome": "Kai dos Ventiladores",
+   "ig": "kia_dos_ventiladores",
+   "profissao": "Manutenção De Ventilador",
+   "status": "fila",
+   "fundador": false,
+   "apoiador": false,
+   "fila": 22
+  }
+ ],
+ "apoiadores": [],
+ "meta": {
+  "nome": "Piscina do condomínio",
+  "arrecadado": 0,
+  "alvo": 100,
+  "link": "https://livepix.gg/edificio8bits"
+ },
  "reservados": {
   "A-101": "o Síndico Interino",
   "A-302": "a Vizinha do 302",
@@ -45,7 +462,7 @@
  "episodios": [
   {
    "n": 1,
-   "titulo": "O terreno vazio",
+   "titulo": "Zero moradores",
    "data": "22/11/2026",
    "publicado": true,
    "resumo": "Terra, muro e seis andares apagados. O porteiro explica a regra dos 21 apartamentos e aponta para a janela do sexto andar que nunca acende.",
