@@ -1,0 +1,137 @@
+{
+ "gerado_em": "2026-11-23 12:20",
+ "totais": {
+  "inscritos": 0,
+  "moradores": 0,
+  "fila": 0,
+  "fundadores": 0
+ },
+ "moradores": [],
+ "reservados": {
+  "A-101": "o Síndico Interino",
+  "A-302": "a Vizinha do 302",
+  "A-604": null
+ },
+ "marcos": [
+  [
+   21,
+   "Bloco A cheio (fundadores)"
+  ],
+  [
+   50,
+   "Começa a obra do Bloco B"
+  ],
+  [
+   81,
+   "Bloco B inaugura + eleição para síndico"
+  ],
+  [
+   150,
+   "Obra do Bloco C + piscina"
+  ],
+  [
+   201,
+   "Bloco C inaugura + academia"
+  ],
+  [
+   2000,
+   "Bloco D e salão de festas"
+  ],
+  [
+   5000,
+   "O bairro ganha nome"
+  ]
+ ],
+ "episodios": [
+  {
+   "n": 1,
+   "titulo": "O terreno vazio",
+   "data": "22/11/2026",
+   "publicado": true,
+   "resumo": "Terra, muro e seis andares apagados. O porteiro explica a regra dos 21 apartamentos e aponta para a janela do sexto andar que nunca acende.",
+   "abertura": 0,
+   "link": "https://www.instagram.com/edificio8bits/"
+  },
+  {
+   "n": 2,
+   "titulo": "Os primeiros moradores",
+   "data": "em breve",
+   "publicado": false,
+   "resumo": "",
+   "abertura": null,
+   "link": null
+  }
+ ],
+ "capitulos": [
+  {
+   "n": 1,
+   "titulo": "O terreno vazio",
+   "ep": 1,
+   "aberto": true,
+   "texto": [
+    "Cheguei antes de todo mundo. Só tinha terra, muro e um prédio de seis andares com as luzes apagadas.",
+    "A construtora entregou o Bloco A numa sexta à noite e foi embora sem dizer quem ia morar nele. Vinte e quatro apartamentos. O síndico interino já estava no 101, a vizinha do 302 chegou com uma caixa de som, e o 604 já estava ocupado. Ninguém viu entrar. A luz nunca acendeu.",
+    "Sobraram vinte e um. O síndico colou um papel no elevador: quem comentar primeiro leva a chave, e os vinte e um primeiros vão para a placa de bronze.",
+    "Fiquei na guarita esperando a primeira campainha."
+   ],
+   "data": "22/11/2026",
+   "abertura": 0
+  },
+  {
+   "n": 2,
+   "titulo": "Os primeiros moradores",
+   "ep": 2,
+   "aberto": false
+  },
+  {
+   "n": 3,
+   "titulo": "Página arrancada",
+   "ep": null,
+   "aberto": false
+  }
+ ],
+ "misterios": [
+  "604: luz nunca acesa. Morador não identificado.",
+  "Bloco B: obra autorizada, nenhum caminhão de cimento até agora.",
+  "Regulamento do elevador: ninguém viu quem colou."
+ ],
+ "regulamento": [
+  "Art. 1º Fica proibido sorrir no elevador antes das 8h.",
+  "Art. 2º Mudanças devem ser comunicadas com 30 dias de antecedência. Mudanças de humor também.",
+  "Art. 3º A vaga de garagem 12 não existe. Não perguntem.",
+  "Art. 4º É proibido bater na porta do 604. Também é proibido escutar atrás dela.",
+  "Art. 5º O porteiro não é responsável pelas fofocas que conta. Só pelas que esquece."
+ ],
+ "elenco": [
+  {
+   "titulo": "O Porteiro",
+   "local": "Portaria",
+   "texto": "Narrador. Simpático, fofoqueiro e sabe da vida de todo mundo.",
+   "ativo": true
+  },
+  {
+   "titulo": "O Síndico Interino",
+   "local": "Apto 101",
+   "texto": "Regras absurdas e multa por qualquer coisa. Até a eleição.",
+   "ativo": true
+  },
+  {
+   "titulo": "A Vizinha do 302",
+   "local": "Apto 302",
+   "texto": "O barulho começa às 7h de domingo e não tem hora para acabar.",
+   "ativo": true
+  },
+  {
+   "titulo": "O Morador do 604",
+   "local": "Apto 604",
+   "texto": "Nunca recebeu uma carta. A caixa está sempre cheia.",
+   "ativo": true
+  },
+  {
+   "titulo": "Lacrada",
+   "local": "Chega com o Bloco B",
+   "texto": "Etiqueta escrita a lápis: “Construtora”.",
+   "ativo": false
+  }
+ ]
+}
