@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-23 20:37",
+ "gerado_em": "2026-11-24 06:00",
  "totais": {
   "inscritos": 43,
   "moradores": 21,
@@ -74,7 +74,7 @@
   {
    "nome": "Jemysson",
    "ig": "jemysson_snts",
-   "profissao": "melhor estoquista",
+   "profissao": "Estoquista",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -155,7 +155,7 @@
   {
    "nome": "Pr Felipe",
    "ig": "feliperrsouza",
-   "profissao": "O Pastor do cond",
+   "profissao": "O Pastor",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -191,7 +191,7 @@
   {
    "nome": "Victor",
    "ig": "victormedeiros82_",
-   "profissao": "designer gráfico. @criagemgrafica.go",
+   "profissao": "Designer gráfico",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -429,10 +429,10 @@
   {
    "n": 2,
    "titulo": "Os primeiros moradores",
-   "data": "em breve",
-   "publicado": false,
-   "resumo": "",
-   "abertura": null,
+   "data": "24/11/2026",
+   "publicado": true,
+   "resumo": "Em um dia o Bloco A lotou: 21 janelas acesas com os nomes dos fundadores. O Síndico desligou a luz geral para economizar, a Larissa do 504 religou tudo, e 22 barracas já ocupam o terreno. Faltam 7 para começar o Bloco B. O 604 continua apagado.",
+   "abertura": 43,
    "link": null
   }
  ],
@@ -455,7 +455,16 @@
    "n": 2,
    "titulo": "Os primeiros moradores",
    "ep": 2,
-   "aberto": false
+   "aberto": true,
+   "texto": [
+    "Não deu tempo nem de esquentar o café. A campainha tocou, tocou de novo, e quando olhei para cima o Bloco A estava aceso de ponta a ponta. Vinte e uma janelas, vinte e um nomes. Os fundadores.",
+    "O síndico interino achou bonito por uns cinco minutos. Depois fez a conta da luz, desceu até o quadro do térreo e baixou a chave geral. 'Pra economizar', ele disse. O prédio inteiro ficou no escuro.",
+    "Quase inteiro. O 604 seguiu do mesmo jeito de sempre: aquele brilho roxo que ninguém sabe de onde vem.",
+    "Quem salvou a noite foi a Larissa, do 504. Eletricista. Desceu com uma lanterna, abriu o quadro e em um minuto estava tudo aceso de novo. Anotei o nome dela no livro duas vezes.",
+    "Lá fora, quem chegou depois não esperou convite: vinte e duas barracas no terreno. Faltam sete para a construtora voltar com a obra do Bloco B."
+   ],
+   "data": "24/11/2026",
+   "abertura": 43
   },
   {
    "n": 3,
