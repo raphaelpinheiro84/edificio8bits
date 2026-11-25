@@ -817,11 +817,11 @@ const ACAMP_VAZIO='<div class="acamp-vazio"><svg viewBox="0 0 48 24" shape-rende
  '<rect x="40" y="9" width="1" height="8" fill="#6B3E1F"/><rect x="35" y="3" width="11" height="7" fill="#C8955A"/><rect x="35" y="9" width="11" height="1" fill="#8A5A2E"/>'+
  '<rect x="40" y="4" width="1" height="1" fill="#C0623B"/><rect x="39" y="5" width="3" height="1" fill="#C0623B"/><rect x="38" y="6" width="5" height="1" fill="#C0623B"/><rect x="39" y="7" width="3" height="2" fill="#F4F1E8"/><rect x="40" y="8" width="1" height="1" fill="#FFD25A"/>'+
  '</svg><div><b>Todo mundo entrou! 🏠</b><p>O acampamento foi desmontado: todos da fila ganharam apartamento. Quem comentar NOME + PROFISSÃO agora entra direto no prédio.</p></div></div>';
-/* Depois da 100: cartão com barracas cinzas sumindo no horizonte + quantas faltam */
-const filaResto=naFila.length-100,MAIS_FILA=filaResto<=0?"":'<div class="barraca mais" title="Mais '+filaResto+' barracas na fila"><svg viewBox="0 0 27 5" aria-hidden="true" shape-rendering="crispEdges">'+
+/* Depois da 50: cartão com barracas cinzas sumindo no horizonte + quantas faltam */
+const FILA_MAX=50,filaResto=naFila.length-FILA_MAX,MAIS_FILA=filaResto<=0?"":'<div class="barraca mais" title="Mais '+filaResto+' barracas na fila"><svg viewBox="0 0 27 5" aria-hidden="true" shape-rendering="crispEdges">'+
  [[0,1],[10,.55],[20,.25]].map(([dx,o])=>'<g fill="#8A8FA3" opacity="'+o+'">'+ICON.barraca.map((l,y)=>[...l].map((v,x)=>v==="1"?'<rect x="'+(x+dx)+'" y="'+y+'" width="1" height="1"/>':"").join("")).join("")+'</g>').join("")+
  '</svg><span>+'+filaResto+' barracas…</span></div>';
-document.getElementById("listaFila").innerHTML=!naFila.length?ACAMP_VAZIO:naFila.slice(0,100).map(p=>'<div class="barraca">'+svg("barraca",p.apoio?"#FFB703":p.fila%2?"#E63946":"#4A7BD0")+'<span>'+p.fila+' · '+esc(p.nome)+'</span></div>').join("")+MAIS_FILA;
+document.getElementById("listaFila").innerHTML=!naFila.length?ACAMP_VAZIO:naFila.slice(0,FILA_MAX).map(p=>'<div class="barraca">'+svg("barraca",p.apoio?"#FFB703":p.fila%2?"#E63946":"#4A7BD0")+'<span>'+p.fila+' · '+esc(p.nome)+'</span></div>').join("")+MAIS_FILA;
 document.getElementById("legFila").textContent=!naFila.length?"Ninguém do lado de fora do muro.":naFila.length+" pessoas do lado de fora do muro. Entram primeiro quando o Bloco B abrir.";
 const norm=s=>s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/^@/,"").trim();
 function acharPessoa(q){const n=norm(q);return pessoas.find(p=>norm(p.ig)===n)||pessoas.find(p=>norm(p.nome)===n)}
