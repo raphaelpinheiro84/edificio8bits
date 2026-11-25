@@ -664,6 +664,10 @@ function desenharCena(ctx,o={}){
   ctx.strokeStyle=C.concreto;ctx.setLineDash([2,2]);ctx.strokeRect(95.5,58.5,28,45);ctx.setLineDash([]);
   ctx.fillStyle=C.concreto;for(let y=66;y<104;y+=9)ctx.fillRect(95,y,29,1);
   const g=(t%6)<3?0:2;ctx.fillStyle=C.janela;ctx.fillRect(126,52,1,52);ctx.fillRect(108,52,19,1);ctx.fillRect(110+g,53,1,6);ctx.fillRect(109+g,59,3,2);
+  if((DADOS.pistas||[]).includes("vendido_b704")){ /* pista do B-704: duas placas VENDIDO na mesma janela */
+    ctx.fillStyle=C.vazia;ctx.fillRect(111,68,8,5);ctx.fillStyle=C.treta;ctx.fillRect(111,69,3,2);ctx.fillRect(116,70,3,2);
+    ctx.fillStyle=C.estrela;ctx.fillRect(112,69,1,1);ctx.fillRect(117,70,1,1);
+    ALVOS.push({tipo:"vendido",x:111,y:68,w:8,h:5});}
   ALVOS.push({tipo:"obra",x:94,y:50,w:34,h:54});
   /* Muro */
   ctx.fillStyle="#6E7389";ctx.fillRect(8,100,128,4);ctx.fillStyle=C.concreto;for(let x=8;x<136;x+=8)ctx.fillRect(x,99,1,5);
@@ -700,6 +704,7 @@ cena.addEventListener("click",e=>{
     if(a.apto in RES){info.textContent="Apto "+a.apto+": aí mora "+RES[a.apto]+". Personagem, viu? Mas o barulho é real.";return}
     const p=porApto[a.apto];info.innerHTML=p?"Apto "+a.apto+": <b>"+esc(p.nome)+"</b>, "+esc(p.prof)+(p.fundador?". Fundador(a)!":".")+(p.nivel?" Na janela: um "+p.pet+" e um vaso de planta.":"")+(p.apoio?" Janela dourada: apoia a obra.":"")+(p.luzes?" Com luzinhas!":"")+" @"+esc(p.ig):"Apto "+a.apto+": vazio ainda. Pode ser o seu.";return}
   if(a.tipo==="barraca"){info.innerHTML="Barraca nº "+a.p.fila+": <b>"+esc(a.p.nome)+"</b>, "+esc(a.p.prof)+"."+(a.p.nivel?" Do lado: um "+a.p.pet+" e um vaso de planta.":"")+(a.p.apoio?" Barraca dourada: apoia a obra.":"")+(a.p.luzes?" Com luzinhas!":"")+" Esperando o Bloco B.";return}
+  if(a.tipo==="vendido"){info.textContent="Essa janela da obra tem duas placas de VENDIDO. Duas. No mesmo apartamento. Vou fingir que não vi.";return}
   if(a.tipo==="obra"){info.textContent="Bloco B: a obra começa com "+(obraB?obraB[0]:"mais")+" moradores. O cimento, ninguém sabe.";return}
   if(a.tipo==="portaria"){info.textContent="Essa é a minha guarita. Daqui eu vejo tudo. E conto tudo.";return}
 });

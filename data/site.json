@@ -1,9 +1,9 @@
 {
- "gerado_em": "2026-11-24 06:18",
+ "gerado_em": "2026-11-25 09:03",
  "totais": {
-  "inscritos": 43,
+  "inscritos": 245,
   "moradores": 21,
-  "fila": 22,
+  "fila": 224,
   "fundadores": 21,
   "apoiadores": 0
  },
@@ -11,7 +11,7 @@
   {
    "nome": "Luiz",
    "ig": "luiiized",
-   "profissao": "engenheiro",
+   "profissao": "Engenheiro",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -20,7 +20,7 @@
   {
    "nome": "Luizz22",
    "ig": "luizz_mf_22",
-   "profissao": "policial do BOPE",
+   "profissao": "Policial do BOPE",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -29,7 +29,7 @@
   {
    "nome": "Kauã",
    "ig": "kaua_l0vatel",
-   "profissao": "caminhoneiro",
+   "profissao": "Caminhoneiro",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -38,7 +38,7 @@
   {
    "nome": "Nathan",
    "ig": "nathanzera__7777",
-   "profissao": "mafioso",
+   "profissao": "Mafioso",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -47,7 +47,7 @@
   {
    "nome": "Gustavo",
    "ig": "gustavo_m1ngante",
-   "profissao": "desempregado",
+   "profissao": "Desempregado",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -56,7 +56,7 @@
   {
    "nome": "Mike",
    "ig": "miikesiilva18",
-   "profissao": "motouber",
+   "profissao": "Motouber",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -65,7 +65,7 @@
   {
    "nome": "Cauã",
    "ig": "_eoh_kawan",
-   "profissao": "influencer",
+   "profissao": "Influencer",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -83,7 +83,7 @@
   {
    "nome": "Yasmim",
    "ig": "yzmimlee",
-   "profissao": "médica",
+   "profissao": "Médica",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -92,7 +92,7 @@
   {
    "nome": "Victor",
    "ig": "mc_bagas_ofc",
-   "profissao": "maconheiro",
+   "profissao": "Maconheiro",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -101,16 +101,16 @@
   {
    "nome": "Carlos Eduardo",
    "ig": "dante_skeleton",
-   "profissao": "balconista de frios",
+   "profissao": "Balconista de frios",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
    "apto": 401
   },
   {
-   "nome": "Eu",
+   "nome": "Emerson",
    "ig": "emerson_campelotkd",
-   "profissao": "coordenador McDonald’s",
+   "profissao": "Coordenador McDonald’s",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -119,7 +119,7 @@
   {
    "nome": "Gabriel",
    "ig": "gabe_araujothomaz",
-   "profissao": "recreador",
+   "profissao": "Recreador",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -128,7 +128,7 @@
   {
    "nome": "Gustavo",
    "ig": "gusttavo.r7",
-   "profissao": "traficante de luxo",
+   "profissao": "Traficante de luxo",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -137,7 +137,7 @@
   {
    "nome": "Leo",
    "ig": "lm.sagaz",
-   "profissao": "maconheiro",
+   "profissao": "Maconheiro",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -146,7 +146,7 @@
   {
    "nome": "Helton",
    "ig": "_velarry",
-   "profissao": "policial",
+   "profissao": "Policial",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -164,7 +164,7 @@
   {
    "nome": "Larissa",
    "ig": "larybraga128",
-   "profissao": "eletricista",
+   "profissao": "Eletricista",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -173,7 +173,7 @@
   {
    "nome": "João Amaro",
    "ig": "26amaro_",
-   "profissao": "eletromecânico",
+   "profissao": "Eletromecânico",
    "status": "morador",
    "fundador": true,
    "bloco": "A",
@@ -200,7 +200,7 @@
   {
    "nome": "André",
    "ig": "negobomba",
-   "profissao": "síndico",
+   "profissao": "Futuro Síndico",
    "status": "fila",
    "fundador": false,
    "fila": 1
@@ -208,7 +208,7 @@
   {
    "nome": "Yuri",
    "ig": "yurinyzx",
-   "profissao": "fofoqueiro",
+   "profissao": "Fofoqueiro",
    "status": "fila",
    "fundador": false,
    "fila": 2
@@ -222,9 +222,9 @@
    "fila": 3
   },
   {
-   "nome": "ALEX",
+   "nome": "Alex",
    "ig": "al3x_2102",
-   "profissao": "SILVEIRA",
+   "profissao": "Desempregado",
    "status": "fila",
    "fundador": false,
    "fila": 4
@@ -232,7 +232,7 @@
   {
    "nome": "Walace",
    "ig": "wala_007_",
-   "profissao": "engenheiro",
+   "profissao": "Engenheiro",
    "status": "fila",
    "fundador": false,
    "fila": 5
@@ -240,7 +240,7 @@
   {
    "nome": "Eduardo",
    "ig": "elvis.e.d",
-   "profissao": "suporte de ti",
+   "profissao": "Suporte de TI",
    "status": "fila",
    "fundador": false,
    "fila": 6
@@ -248,7 +248,7 @@
   {
    "nome": "Breno",
    "ig": "santana0689",
-   "profissao": "segurança",
+   "profissao": "Segurança",
    "status": "fila",
    "fundador": false,
    "fila": 7
@@ -264,7 +264,7 @@
   {
    "nome": "Eduardo",
    "ig": "edu_sillva7",
-   "profissao": "operador",
+   "profissao": "Operador",
    "status": "fila",
    "fundador": false,
    "fila": 9
@@ -272,7 +272,7 @@
   {
    "nome": "Marcio",
    "ig": "macinhio_pb",
-   "profissao": "fabricante de iogurte",
+   "profissao": "Fabricante de iogurte",
    "status": "fila",
    "fundador": false,
    "fila": 10
@@ -280,7 +280,7 @@
   {
    "nome": "Augusto",
    "ig": "augu.x.to",
-   "profissao": "eletrônico",
+   "profissao": "Eletrônico",
    "status": "fila",
    "fundador": false,
    "fila": 11
@@ -288,7 +288,7 @@
   {
    "nome": "Alisson",
    "ig": "alisson_vitor.23",
-   "profissao": "pizzaiolo kk",
+   "profissao": "Pizzaiolo",
    "status": "fila",
    "fundador": false,
    "fila": 12
@@ -296,7 +296,7 @@
   {
    "nome": "Ricardo",
    "ig": "rc_ricardo_20yj",
-   "profissao": "mecânico",
+   "profissao": "Mecânico",
    "status": "fila",
    "fundador": false,
    "fila": 13
@@ -304,15 +304,15 @@
   {
    "nome": "Esmeralda",
    "ig": "esmeraldblack",
-   "profissao": "dona de casa",
+   "profissao": "Dona de casa",
    "status": "fila",
    "fundador": false,
    "fila": 14
   },
   {
-   "nome": "Samuel.artom",
+   "nome": "Samuel Artom",
    "ig": "samuel.artom",
-   "profissao": "Meu Pai é o chefe",
+   "profissao": "Pai é o chefe",
    "status": "fila",
    "fundador": false,
    "fila": 15
@@ -320,13 +320,13 @@
   {
    "nome": "Benko",
    "ig": "____2k26bnk",
-   "profissao": "analista de sistemas",
+   "profissao": "Analista de sistemas",
    "status": "fila",
    "fundador": false,
    "fila": 16
   },
   {
-   "nome": "Fael_2k",
+   "nome": "Fael 2k",
    "ig": "_fael_2k",
    "profissao": "Policial",
    "status": "fila",
@@ -336,7 +336,7 @@
   {
    "nome": "Nicolas Ramos",
    "ig": "ramos_nicolas_777",
-   "profissao": "pisicoanalista",
+   "profissao": "Psicanalista",
    "status": "fila",
    "fundador": false,
    "fila": 18
@@ -352,7 +352,7 @@
   {
    "nome": "Vitor",
    "ig": "46.rn__",
-   "profissao": "eletricista",
+   "profissao": "Eletricista",
    "status": "fila",
    "fundador": false,
    "fila": 20
@@ -368,10 +368,1626 @@
   {
    "nome": "Kai dos Ventiladores",
    "ig": "kia_dos_ventiladores",
-   "profissao": "Manutenção De Ventilador",
+   "profissao": "Manutenção de Ventilador",
    "status": "fila",
    "fundador": false,
    "fila": 22
+  },
+  {
+   "nome": "Jhonsx",
+   "ig": "jhonsx39",
+   "profissao": "Desempregado",
+   "status": "fila",
+   "fundador": false,
+   "fila": 23
+  },
+  {
+   "nome": "Lucas",
+   "ig": "_souz24",
+   "profissao": "Mecânico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 24
+  },
+  {
+   "nome": "Joao",
+   "ig": "kuskoski_ofc",
+   "profissao": "Produtor de leite",
+   "status": "fila",
+   "fundador": false,
+   "fila": 25
+  },
+  {
+   "nome": "Thalles",
+   "ig": "arinethalles",
+   "profissao": "DJ",
+   "status": "fila",
+   "fundador": false,
+   "fila": 26
+  },
+  {
+   "nome": "Caroline",
+   "ig": "poxa_india0",
+   "profissao": "Cabeleireira",
+   "status": "fila",
+   "fundador": false,
+   "fila": 27
+  },
+  {
+   "nome": "Douglas",
+   "ig": "douglaszuber8",
+   "profissao": "Estudante",
+   "status": "fila",
+   "fundador": false,
+   "fila": 28
+  },
+  {
+   "nome": "Guilherme",
+   "ig": "gui_fr0w0",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 29
+  },
+  {
+   "nome": "Euuuuu",
+   "ig": "wgk.rz_",
+   "profissao": "Pedreiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 30
+  },
+  {
+   "nome": "Manoel",
+   "ig": "manoel.gt3",
+   "profissao": "Piloto de f1",
+   "status": "fila",
+   "fundador": false,
+   "fila": 31
+  },
+  {
+   "nome": "Murilo",
+   "ig": "mirilo_m",
+   "profissao": "Empreendedor",
+   "status": "fila",
+   "fundador": false,
+   "fila": 32
+  },
+  {
+   "nome": "Artur",
+   "ig": "oborges_26",
+   "profissao": "Cientista da computação",
+   "status": "fila",
+   "fundador": false,
+   "fila": 33
+  },
+  {
+   "nome": "Tchu Miranda",
+   "ig": "tchu.miranda",
+   "profissao": "Camioneiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 34
+  },
+  {
+   "nome": "Kauan",
+   "ig": "kauan_zin_nt",
+   "profissao": "Professor de artes",
+   "status": "fila",
+   "fundador": false,
+   "fila": 35
+  },
+  {
+   "nome": "Manoel",
+   "ig": "xx.siqueira.wx",
+   "profissao": "Trabalho no agro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 36
+  },
+  {
+   "nome": "Kennedy",
+   "ig": "ofc_kennedy_c.r",
+   "profissao": "Bombeiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 37
+  },
+  {
+   "nome": "Hiago",
+   "ig": "hiagomonteir0",
+   "profissao": "Vendedor",
+   "status": "fila",
+   "fundador": false,
+   "fila": 38
+  },
+  {
+   "nome": "Mateus",
+   "ig": "mate.ussantos80",
+   "profissao": "Acougueiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 39
+  },
+  {
+   "nome": "Nathan",
+   "ig": "nathanferreiraa._",
+   "profissao": "Mecânico de motos",
+   "status": "fila",
+   "fundador": false,
+   "fila": 40
+  },
+  {
+   "nome": "Daniel",
+   "ig": "_nielcoutinho",
+   "profissao": "Delegado de polícia",
+   "status": "fila",
+   "fundador": false,
+   "fila": 41
+  },
+  {
+   "nome": "Antonio",
+   "ig": "antonioclsjunior_",
+   "profissao": "Piloto de aviao",
+   "status": "fila",
+   "fundador": false,
+   "fila": 42
+  },
+  {
+   "nome": "Dino Martins",
+   "ig": "dino_serralheiro_martins",
+   "profissao": "Militar português",
+   "status": "fila",
+   "fundador": false,
+   "fila": 43
+  },
+  {
+   "nome": "Samuel",
+   "ig": "samuzin2406",
+   "profissao": "Voador de parapente",
+   "status": "fila",
+   "fundador": false,
+   "fila": 44
+  },
+  {
+   "nome": "Matheus",
+   "ig": "matheusrolo27",
+   "profissao": "Bombeiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 45
+  },
+  {
+   "nome": "Alan",
+   "ig": "alan.reis.01",
+   "profissao": "Mecânico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 46
+  },
+  {
+   "nome": "Hariel",
+   "ig": "hariex._",
+   "profissao": "Pescador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 47
+  },
+  {
+   "nome": "Miguel",
+   "ig": "miguelbagetoferreira",
+   "profissao": "Estudante",
+   "status": "fila",
+   "fundador": false,
+   "fila": 48
+  },
+  {
+   "nome": "Trindade",
+   "ig": "trindade2012102",
+   "profissao": "Rockeiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 49
+  },
+  {
+   "nome": "041 Emiiy",
+   "ig": "041_emiiy",
+   "profissao": "Advogada",
+   "status": "fila",
+   "fundador": false,
+   "fila": 50
+  },
+  {
+   "nome": "Eduuhx",
+   "ig": "eduuhx7_rlk",
+   "profissao": "Mecânico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 51
+  },
+  {
+   "nome": "Adri",
+   "ig": "adriel.calistro",
+   "profissao": "Bicicleteiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 52
+  },
+  {
+   "nome": "Pedro",
+   "ig": "pedro_dias_p9",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "fila": 53
+  },
+  {
+   "nome": "Daniel",
+   "ig": "danielsantos_3973",
+   "profissao": "Borracheiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 54
+  },
+  {
+   "nome": "Davi",
+   "ig": "davi_goleiro_gk_01",
+   "profissao": "Empresario",
+   "status": "fila",
+   "fundador": false,
+   "fila": 55
+  },
+  {
+   "nome": "Matheus",
+   "ig": "matheus393535",
+   "profissao": "Mexer com Água",
+   "status": "fila",
+   "fundador": false,
+   "fila": 56
+  },
+  {
+   "nome": "Matheus",
+   "ig": "mt16052015",
+   "profissao": "Pedreiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 57
+  },
+  {
+   "nome": "Siilvazz",
+   "ig": "siilvazz.0",
+   "profissao": "Cientista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 58
+  },
+  {
+   "nome": "Yasmin",
+   "ig": "alves_yasmincristina",
+   "profissao": "Bióloga Marinha",
+   "status": "fila",
+   "fundador": false,
+   "fila": 59
+  },
+  {
+   "nome": "Ryan",
+   "ig": "ryan002271",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "fila": 60
+  },
+  {
+   "nome": "Emy R15",
+   "ig": "emy_r15_",
+   "profissao": "Desempregada",
+   "status": "fila",
+   "fundador": false,
+   "fila": 61
+  },
+  {
+   "nome": "Gabriel",
+   "ig": "obielzord",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 62
+  },
+  {
+   "nome": "Vinicius",
+   "ig": "vinicius_unicx_",
+   "profissao": "Encanador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 63
+  },
+  {
+   "nome": "Anny",
+   "ig": "secretsx._aninha",
+   "profissao": "Dentista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 64
+  },
+  {
+   "nome": "Nicolas",
+   "ig": "novacknicolaslopes",
+   "profissao": "Estudante",
+   "status": "fila",
+   "fundador": false,
+   "fila": 65
+  },
+  {
+   "nome": "Miguel Gabrielapa",
+   "ig": "miguelgabrielapa",
+   "profissao": "Desempregado",
+   "status": "fila",
+   "fundador": false,
+   "fila": 66
+  },
+  {
+   "nome": "Lucas",
+   "ig": "lucashortaaa",
+   "profissao": "Físico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 67
+  },
+  {
+   "nome": "Enzo",
+   "ig": "enzovargas2026",
+   "profissao": "Bombeiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 68
+  },
+  {
+   "nome": "Mine Sarah",
+   "ig": "mine._.sarah",
+   "profissao": "Estudante",
+   "status": "fila",
+   "fundador": false,
+   "fila": 69
+  },
+  {
+   "nome": "Lizy37135",
+   "ig": "lizy37135",
+   "profissao": "Veterinária",
+   "status": "fila",
+   "fundador": false,
+   "fila": 70
+  },
+  {
+   "nome": "Euuuu",
+   "ig": "015jao2026",
+   "profissao": "244",
+   "status": "fila",
+   "fundador": false,
+   "fila": 71
+  },
+  {
+   "nome": "Heitor",
+   "ig": "heitorsoares476",
+   "profissao": "Lutador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 72
+  },
+  {
+   "nome": "Vitor",
+   "ig": "vitor699576",
+   "profissao": "Pedreiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 73
+  },
+  {
+   "nome": "Iasmim",
+   "ig": "iaszxn_",
+   "profissao": "Médica",
+   "status": "fila",
+   "fundador": false,
+   "fila": 74
+  },
+  {
+   "nome": "Heloysa",
+   "ig": "helo_martins12l",
+   "profissao": "Médica",
+   "status": "fila",
+   "fundador": false,
+   "fila": 75
+  },
+  {
+   "nome": "Abraão",
+   "ig": "santana_paz_088",
+   "profissao": "Cozinheiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 76
+  },
+  {
+   "nome": "Gazola Edits",
+   "ig": "gazola_edits",
+   "profissao": "Caminhoneiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 77
+  },
+  {
+   "nome": "Allef",
+   "ig": "_alf.snts",
+   "profissao": "Policial da BOPE",
+   "status": "fila",
+   "fundador": false,
+   "fila": 78
+  },
+  {
+   "nome": "Pedro",
+   "ig": "granemann.pedro",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 79
+  },
+  {
+   "nome": "Tiago",
+   "ig": "tiagocardos27",
+   "profissao": "Eletrecista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 80
+  },
+  {
+   "nome": "Lucas",
+   "ig": "eo_luquinhahs0",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "fila": 81
+  },
+  {
+   "nome": "Willam",
+   "ig": "london_2606",
+   "profissao": "Padre",
+   "status": "fila",
+   "fundador": false,
+   "fila": 82
+  },
+  {
+   "nome": "Maria Roberta",
+   "ig": "jesusxs.mah",
+   "profissao": "Psicóloga",
+   "status": "fila",
+   "fundador": false,
+   "fila": 83
+  },
+  {
+   "nome": "Edivan",
+   "ig": "edivansebastian7",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "fila": 84
+  },
+  {
+   "nome": "Muniz",
+   "ig": "x.munizx",
+   "profissao": "Vendedor de alegria",
+   "status": "fila",
+   "fundador": false,
+   "fila": 85
+  },
+  {
+   "nome": "Natália",
+   "ig": "nathymontteiroo",
+   "profissao": "Vendedora",
+   "status": "fila",
+   "fundador": false,
+   "fila": 86
+  },
+  {
+   "nome": "Angelyca",
+   "ig": "_.siilvasxz._",
+   "profissao": "Enfermeira",
+   "status": "fila",
+   "fundador": false,
+   "fila": 87
+  },
+  {
+   "nome": "Karol",
+   "ig": "diaskarolzin",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "fila": 88
+  },
+  {
+   "nome": "Escolhe",
+   "ig": "f.santxz466",
+   "profissao": "eu",
+   "status": "fila",
+   "fundador": false,
+   "fila": 89
+  },
+  {
+   "nome": "João",
+   "ig": "joaolukinhas_carvalho",
+   "profissao": "Padre",
+   "status": "fila",
+   "fundador": false,
+   "fila": 90
+  },
+  {
+   "nome": "Deny",
+   "ig": "deny_minussi00",
+   "profissao": "Pedreiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 91
+  },
+  {
+   "nome": "Marcela",
+   "ig": "ticianomarcela",
+   "profissao": "Gestora de Projetos Digitais",
+   "status": "fila",
+   "fundador": false,
+   "fila": 92
+  },
+  {
+   "nome": "Tina",
+   "ig": "valen46592",
+   "profissao": "Dubladora",
+   "status": "fila",
+   "fundador": false,
+   "fila": 93
+  },
+  {
+   "nome": "Vitoria Emanuelly",
+   "ig": "vitoriaemanuelly3456",
+   "profissao": "Freira",
+   "status": "fila",
+   "fundador": false,
+   "fila": 94
+  },
+  {
+   "nome": "Tauane",
+   "ig": "tauanedejesusbatista7",
+   "profissao": "Parteira",
+   "status": "fila",
+   "fundador": false,
+   "fila": 95
+  },
+  {
+   "nome": "Maria Yumis",
+   "ig": "maria_yumis",
+   "profissao": "Desempregada",
+   "status": "fila",
+   "fundador": false,
+   "fila": 96
+  },
+  {
+   "nome": "Atos",
+   "ig": "cafsxc",
+   "profissao": "Cirurgião",
+   "status": "fila",
+   "fundador": false,
+   "fila": 97
+  },
+  {
+   "nome": "Brayan",
+   "ig": "brn_06779",
+   "profissao": "Advogado",
+   "status": "fila",
+   "fundador": false,
+   "fila": 98
+  },
+  {
+   "nome": "Davizinho",
+   "ig": "davizinho.4600",
+   "profissao": "Eletricista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 99
+  },
+  {
+   "nome": "Gabriel",
+   "ig": "gabizin_berti",
+   "profissao": "Militar",
+   "status": "fila",
+   "fundador": false,
+   "fila": 100
+  },
+  {
+   "nome": "Natan",
+   "ig": "natan2212015",
+   "profissao": "Bombeiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 101
+  },
+  {
+   "nome": "Heitor",
+   "ig": "heitor_cianfa",
+   "profissao": "Programador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 102
+  },
+  {
+   "nome": "Leonardo",
+   "ig": "rlk_leozin___",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 103
+  },
+  {
+   "nome": "Santos Ruan",
+   "ig": "s4ntoss_ruann",
+   "profissao": "Empresário",
+   "status": "fila",
+   "fundador": false,
+   "fila": 104
+  },
+  {
+   "nome": "Ana Victória",
+   "ig": "euana._.vihh",
+   "profissao": "Jogadora de stardew valley",
+   "status": "fila",
+   "fundador": false,
+   "fila": 105
+  },
+  {
+   "nome": "Kyara",
+   "ig": "ky268013",
+   "profissao": "Estudante",
+   "status": "fila",
+   "fundador": false,
+   "fila": 106
+  },
+  {
+   "nome": "Yalk",
+   "ig": "yalk_abraao",
+   "profissao": "Lutador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 107
+  },
+  {
+   "nome": "Joao",
+   "ig": "_joaoxz10_",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 108
+  },
+  {
+   "nome": "Augustinho",
+   "ig": "agustinho402",
+   "profissao": "Taxista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 109
+  },
+  {
+   "nome": "Pedro",
+   "ig": "pdrx_show.08",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 110
+  },
+  {
+   "nome": "Ane",
+   "ig": "ane31240",
+   "profissao": "Cafetina",
+   "status": "fila",
+   "fundador": false,
+   "fila": 111
+  },
+  {
+   "nome": "Gabriel",
+   "ig": "gabribr_f3x",
+   "profissao": "Ditador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 112
+  },
+  {
+   "nome": "Laura",
+   "ig": "laura.terribile07",
+   "profissao": "Professora",
+   "status": "fila",
+   "fundador": false,
+   "fila": 113
+  },
+  {
+   "nome": "Miguel",
+   "ig": "miguellrm._",
+   "profissao": "Piloto",
+   "status": "fila",
+   "fundador": false,
+   "fila": 114
+  },
+  {
+   "nome": "Matheus",
+   "ig": "matheusmoraisdonascimento",
+   "profissao": "Operador de máquina",
+   "status": "fila",
+   "fundador": false,
+   "fila": 115
+  },
+  {
+   "nome": "Fabricio",
+   "ig": "fabricioeduardo77",
+   "profissao": "Construtor",
+   "status": "fila",
+   "fundador": false,
+   "fila": 116
+  },
+  {
+   "nome": "Rflu",
+   "ig": "rflu.an1",
+   "profissao": "Empresário",
+   "status": "fila",
+   "fundador": false,
+   "fila": 117
+  },
+  {
+   "nome": "Paulo Henrique",
+   "ig": "phdesenho",
+   "profissao": "Designer de Interiores",
+   "status": "fila",
+   "fundador": false,
+   "fila": 118
+  },
+  {
+   "nome": "Marcelinho",
+   "ig": "marcelinho_velozo",
+   "profissao": "Estudante",
+   "status": "fila",
+   "fundador": false,
+   "fila": 119
+  },
+  {
+   "nome": "Mdg Dudu",
+   "ig": "mdg_dudu36",
+   "profissao": "Jogador de free fire",
+   "status": "fila",
+   "fundador": false,
+   "fila": 120
+  },
+  {
+   "nome": "Laurien",
+   "ig": "laurienmy_212",
+   "profissao": "Advogada criminalista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 121
+  },
+  {
+   "nome": "Wallace",
+   "ig": "_rodrigues.sz7",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 122
+  },
+  {
+   "nome": "Kauã",
+   "ig": "kaua_.mathxz",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 123
+  },
+  {
+   "nome": "Bernardo",
+   "ig": "bernardo67347",
+   "profissao": "Grafiteiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 124
+  },
+  {
+   "nome": "Davi Lucas",
+   "ig": "davisilverio0604",
+   "profissao": "Caminhoneiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 125
+  },
+  {
+   "nome": "Rafael",
+   "ig": "raffwz_777",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 126
+  },
+  {
+   "nome": "Thaison",
+   "ig": "thaisin_199",
+   "profissao": "Medico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 127
+  },
+  {
+   "nome": "Pietro",
+   "ig": "ea_pietro_00",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 128
+  },
+  {
+   "nome": "Miguel",
+   "ig": "miguel_riicardo_mendonca",
+   "profissao": "Polícia",
+   "status": "fila",
+   "fundador": false,
+   "fila": 129
+  },
+  {
+   "nome": "Agatha",
+   "ig": "thay_xvvx",
+   "profissao": "Dona do prédio",
+   "status": "fila",
+   "fundador": false,
+   "fila": 130
+  },
+  {
+   "nome": "Maria Luiza",
+   "ig": "malu.201520",
+   "profissao": "Professora",
+   "status": "fila",
+   "fundador": false,
+   "fila": 131
+  },
+  {
+   "nome": "Marcos",
+   "ig": "marquimplay",
+   "profissao": "Bonbeiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 132
+  },
+  {
+   "nome": "Rauan",
+   "ig": "rauandlg_12",
+   "profissao": "Atleta",
+   "status": "fila",
+   "fundador": false,
+   "fila": 133
+  },
+  {
+   "nome": "Ismael Almeida",
+   "ig": "ismaelalmeidavictor",
+   "profissao": "Mecânico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 134
+  },
+  {
+   "nome": "E",
+   "ig": "nevesarielpacheco",
+   "profissao": "eu",
+   "status": "fila",
+   "fundador": false,
+   "fila": 135
+  },
+  {
+   "nome": "Anthony",
+   "ig": "eo.anthony9",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "fila": 136
+  },
+  {
+   "nome": "Luah",
+   "ig": "luah.xz_",
+   "profissao": "Médica",
+   "status": "fila",
+   "fundador": false,
+   "fila": 137
+  },
+  {
+   "nome": "Mellane",
+   "ig": "mellane_lemos",
+   "profissao": "Padeira",
+   "status": "fila",
+   "fundador": false,
+   "fila": 138
+  },
+  {
+   "nome": "Médica",
+   "ig": "s_napolitano10",
+   "profissao": "Sarah",
+   "status": "fila",
+   "fundador": false,
+   "fila": 139
+  },
+  {
+   "nome": "Maldozso 777",
+   "ig": "maldozso777",
+   "profissao": "Jogador Famoso",
+   "status": "fila",
+   "fundador": false,
+   "fila": 140
+  },
+  {
+   "nome": "Rafael",
+   "ig": "rafaelaugusto_01",
+   "profissao": "Bombeiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 141
+  },
+  {
+   "nome": "Marcelo",
+   "ig": "marcelim_2017",
+   "profissao": "Poliisia",
+   "status": "fila",
+   "fundador": false,
+   "fila": 142
+  },
+  {
+   "nome": "031 Biel 01",
+   "ig": "031_biel_01",
+   "profissao": "Médico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 143
+  },
+  {
+   "nome": "Hellen",
+   "ig": "hellenzita_000333",
+   "profissao": "Artesã",
+   "status": "fila",
+   "fundador": false,
+   "fila": 144
+  },
+  {
+   "nome": "Caio",
+   "ig": "caioj_unioroliveiradossantos",
+   "profissao": "Polícia",
+   "status": "fila",
+   "fundador": false,
+   "fila": 145
+  },
+  {
+   "nome": "Leonardo",
+   "ig": "leleko_244",
+   "profissao": "Ator",
+   "status": "fila",
+   "fundador": false,
+   "fila": 146
+  },
+  {
+   "nome": "Thalia",
+   "ig": "gab67848",
+   "profissao": "Advogada",
+   "status": "fila",
+   "fundador": false,
+   "fila": 147
+  },
+  {
+   "nome": "Enzo",
+   "ig": "enzo.santana.mts",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 148
+  },
+  {
+   "nome": "Bruno",
+   "ig": "brun03046",
+   "profissao": "Músico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 149
+  },
+  {
+   "nome": "Arthur",
+   "ig": "arthurhenrique_santoss",
+   "profissao": "Taekwondista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 150
+  },
+  {
+   "nome": "Hadassa",
+   "ig": "hadassacristina_09",
+   "profissao": "Juíza",
+   "status": "fila",
+   "fundador": false,
+   "fila": 151
+  },
+  {
+   "nome": "Pedro",
+   "ig": "pvd_pedro7778",
+   "profissao": "Fazendeiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 152
+  },
+  {
+   "nome": "Narrylla",
+   "ig": "secrets.rochawjf",
+   "profissao": "Perita criminal",
+   "status": "fila",
+   "fundador": false,
+   "fila": 153
+  },
+  {
+   "nome": "Izadora",
+   "ig": "vaccariizadora",
+   "profissao": "Biologa",
+   "status": "fila",
+   "fundador": false,
+   "fila": 154
+  },
+  {
+   "nome": "Rafael",
+   "ig": "sc_rafa90",
+   "profissao": "Mecânico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 155
+  },
+  {
+   "nome": "Ryan",
+   "ig": "ryanzinhorg",
+   "profissao": "Biólogo de répteis",
+   "status": "fila",
+   "fundador": false,
+   "fila": 156
+  },
+  {
+   "nome": "Henrique",
+   "ig": "pv_do_rick2710",
+   "profissao": "Veterinario",
+   "status": "fila",
+   "fundador": false,
+   "fila": 157
+  },
+  {
+   "nome": "Victor",
+   "ig": "metf_vitin77",
+   "profissao": "Engenheiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 158
+  },
+  {
+   "nome": "Eu",
+   "ig": "rk_nunesz",
+   "profissao": "tbm",
+   "status": "fila",
+   "fundador": false,
+   "fila": 159
+  },
+  {
+   "nome": "Guilherme",
+   "ig": "guilherme.kk931",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 160
+  },
+  {
+   "nome": "Renan",
+   "ig": "dedinho_do_skina",
+   "profissao": "Professor",
+   "status": "fila",
+   "fundador": false,
+   "fila": 161
+  },
+  {
+   "nome": "Vitor",
+   "ig": "vitim2499",
+   "profissao": "Engenheiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 162
+  },
+  {
+   "nome": "Linaeten",
+   "ig": "linaeten",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 163
+  },
+  {
+   "nome": "Jack",
+   "ig": "jackerubens",
+   "profissao": "Pm",
+   "status": "fila",
+   "fundador": false,
+   "fila": 164
+  },
+  {
+   "nome": "Davi",
+   "ig": "davilucasbettio",
+   "profissao": "Jardineiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 165
+  },
+  {
+   "nome": "Bernardo",
+   "ig": "bernardosantosverdan",
+   "profissao": "Arquiteto",
+   "status": "fila",
+   "fundador": false,
+   "fila": 166
+  },
+  {
+   "nome": "Nathally",
+   "ig": "naty___reis__",
+   "profissao": "Lutadora",
+   "status": "fila",
+   "fundador": false,
+   "fila": 167
+  },
+  {
+   "nome": "Manu",
+   "ig": "manuela_estevam",
+   "profissao": "Advogada",
+   "status": "fila",
+   "fundador": false,
+   "fila": 168
+  },
+  {
+   "nome": "Brayan",
+   "ig": "b.diaz244",
+   "profissao": "Segurança",
+   "status": "fila",
+   "fundador": false,
+   "fila": 169
+  },
+  {
+   "nome": "Arthur Martini",
+   "ig": "arthur_martini_006",
+   "profissao": "Mecânico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 170
+  },
+  {
+   "nome": "Junior",
+   "ig": "souza_x7x_",
+   "profissao": "Engenheiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 171
+  },
+  {
+   "nome": "Samuel",
+   "ig": "maguinata_hain",
+   "profissao": "Motoboy",
+   "status": "fila",
+   "fundador": false,
+   "fila": 172
+  },
+  {
+   "nome": "Julia",
+   "ig": "julia2016.__",
+   "profissao": "Lutadora de jiu-jítsu",
+   "status": "fila",
+   "fundador": false,
+   "fila": 173
+  },
+  {
+   "nome": "Helio",
+   "ig": "meno_hl_027",
+   "profissao": "Mecanico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 174
+  },
+  {
+   "nome": "Nycollasgabriel",
+   "ig": "nycollasgabriel090",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "fila": 175
+  },
+  {
+   "nome": "Marcos",
+   "ig": "macedo09_mv",
+   "profissao": "Agente da PRF",
+   "status": "fila",
+   "fundador": false,
+   "fila": 176
+  },
+  {
+   "nome": "Drax",
+   "ig": "drax7__",
+   "profissao": "Arquiteto",
+   "status": "fila",
+   "fundador": false,
+   "fila": 177
+  },
+  {
+   "nome": "Kamyla",
+   "ig": "katrrinekts",
+   "profissao": "Psicanalista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 178
+  },
+  {
+   "nome": "Enzo",
+   "ig": "enzero07",
+   "profissao": "Dublador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 179
+  },
+  {
+   "nome": "Ana",
+   "ig": "honeynanacs",
+   "profissao": "Atriz",
+   "status": "fila",
+   "fundador": false,
+   "fila": 180
+  },
+  {
+   "nome": "Leandro",
+   "ig": "leandrobezerra796",
+   "profissao": "244",
+   "status": "fila",
+   "fundador": false,
+   "fila": 181
+  },
+  {
+   "nome": "Sofia",
+   "ig": "sofi.hanna07",
+   "profissao": "Engenheira",
+   "status": "fila",
+   "fundador": false,
+   "fila": 182
+  },
+  {
+   "nome": "Gustavo",
+   "ig": "gustavo_bdj",
+   "profissao": "Seguros",
+   "status": "fila",
+   "fundador": false,
+   "fila": 183
+  },
+  {
+   "nome": "Raphael",
+   "ig": "e_o_gomes_001",
+   "profissao": "Aluno",
+   "status": "fila",
+   "fundador": false,
+   "fila": 184
+  },
+  {
+   "nome": "MAria Isabella",
+   "ig": "goncalves.mariaisabella",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "fila": 185
+  },
+  {
+   "nome": "Davi",
+   "ig": "davi.oliveira.25d",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 186
+  },
+  {
+   "nome": "Gabriel",
+   "ig": "ryo_000y",
+   "profissao": "Cartomante",
+   "status": "fila",
+   "fundador": false,
+   "fila": 187
+  },
+  {
+   "nome": "Alves",
+   "ig": "alves_otavio14",
+   "profissao": "Advogado criminalista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 188
+  },
+  {
+   "nome": "Breno",
+   "ig": "e_o_breno_ne_pai",
+   "profissao": "Veterinário",
+   "status": "fila",
+   "fundador": false,
+   "fila": 189
+  },
+  {
+   "nome": "Theo",
+   "ig": "theo.0906",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "fila": 190
+  },
+  {
+   "nome": "Gustavo",
+   "ig": "_gustavo.almeida._",
+   "profissao": "Videomaker e fotógrafo",
+   "status": "fila",
+   "fundador": false,
+   "fila": 191
+  },
+  {
+   "nome": "Miguel",
+   "ig": "miguel_tr3m7x_ofc",
+   "profissao": "Pedreiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 192
+  },
+  {
+   "nome": "Luan Pedro",
+   "ig": "luanpedrosousasantos",
+   "profissao": "Mecânico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 193
+  },
+  {
+   "nome": "Rebeca",
+   "ig": "rebeca_camargo346",
+   "profissao": "Desempregada",
+   "status": "fila",
+   "fundador": false,
+   "fila": 194
+  },
+  {
+   "nome": "Bryan",
+   "ig": "w3b_bryan",
+   "profissao": "Empresário",
+   "status": "fila",
+   "fundador": false,
+   "fila": 195
+  },
+  {
+   "nome": "Jhulya",
+   "ig": "eujhulyaluisa",
+   "profissao": "Chefe de cozinha",
+   "status": "fila",
+   "fundador": false,
+   "fila": 196
+  },
+  {
+   "nome": "Miguel.h.bjj",
+   "ig": "miguel.h.bjj",
+   "profissao": "Musico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 197
+  },
+  {
+   "nome": "Emanuel",
+   "ig": "emanuel_mtheus",
+   "profissao": "Professor",
+   "status": "fila",
+   "fundador": false,
+   "fila": 198
+  },
+  {
+   "nome": "João",
+   "ig": "joao.almeizt",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 199
+  },
+  {
+   "nome": "Miguel",
+   "ig": "miguelbritogames1",
+   "profissao": "Youtuber",
+   "status": "fila",
+   "fundador": false,
+   "fila": 200
+  },
+  {
+   "nome": "Maria Sophia",
+   "ig": "maria_sophia1402",
+   "profissao": "Empreendedora",
+   "status": "fila",
+   "fundador": false,
+   "fila": 201
+  },
+  {
+   "nome": "Reserva Silva",
+   "ig": "reserva.___silva___00",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 202
+  },
+  {
+   "nome": "Lorena",
+   "ig": "aysha_lorena_maria",
+   "profissao": "Diretora",
+   "status": "fila",
+   "fundador": false,
+   "fila": 203
+  },
+  {
+   "nome": "Drielly",
+   "ig": "driazinha_10",
+   "profissao": "Medica",
+   "status": "fila",
+   "fundador": false,
+   "fila": 204
+  },
+  {
+   "nome": "Blessed",
+   "ig": "blessed.szx",
+   "profissao": "Encanador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 205
+  },
+  {
+   "nome": "Felipinnf",
+   "ig": "felipinnf_",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 206
+  },
+  {
+   "nome": "Pink Berry",
+   "ig": "pinkberry_ofc75",
+   "profissao": "Médica",
+   "status": "fila",
+   "fundador": false,
+   "fila": 207
+  },
+  {
+   "nome": "Vitiix",
+   "ig": "xz_vitiix",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 208
+  },
+  {
+   "nome": "Caleb",
+   "ig": "carvalho_06_08",
+   "profissao": "Empresário",
+   "status": "fila",
+   "fundador": false,
+   "fila": 209
+  },
+  {
+   "nome": "Petraa",
+   "ig": "petrachiliano",
+   "profissao": "Veterinária",
+   "status": "fila",
+   "fundador": false,
+   "fila": 210
+  },
+  {
+   "nome": "Guilherme",
+   "ig": "gui95751",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 211
+  },
+  {
+   "nome": "Rebeca",
+   "ig": "_rebecaoliveira1",
+   "profissao": "Estudande",
+   "status": "fila",
+   "fundador": false,
+   "fila": 212
+  },
+  {
+   "nome": "Diogo",
+   "ig": "_souzawm_",
+   "profissao": "Policia do BOPE",
+   "status": "fila",
+   "fundador": false,
+   "fila": 213
+  },
+  {
+   "nome": "Taci18588",
+   "ig": "taci18588",
+   "profissao": "Policial militar",
+   "status": "fila",
+   "fundador": false,
+   "fila": 214
+  },
+  {
+   "nome": "Aa Maria",
+   "ig": "aamaria264",
+   "profissao": "Advogada",
+   "status": "fila",
+   "fundador": false,
+   "fila": 215
+  },
+  {
+   "nome": "Victor Valentim",
+   "ig": "victor_valentim_456",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 216
+  },
+  {
+   "nome": "Pvd Mari",
+   "ig": "pvdmari____12",
+   "profissao": "Veterinária",
+   "status": "fila",
+   "fundador": false,
+   "fila": 217
+  },
+  {
+   "nome": "Mirela",
+   "ig": "schmitz_mi_06",
+   "profissao": "Estilista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 218
+  },
+  {
+   "nome": "Melissa",
+   "ig": "meldamaceno2000",
+   "profissao": "Perita criminal",
+   "status": "fila",
+   "fundador": false,
+   "fila": 219
+  },
+  {
+   "nome": "Davi",
+   "ig": "lh.davi",
+   "profissao": "Preparador de carros de arrancada",
+   "status": "fila",
+   "fundador": false,
+   "fila": 220
+  },
+  {
+   "nome": "João Pedro",
+   "ig": "joaocs_07",
+   "profissao": "Jornalista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 221
+  },
+  {
+   "nome": "23 Atentado",
+   "ig": "23_atentado",
+   "profissao": "Lutador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 222
+  },
+  {
+   "nome": "Enzo",
+   "ig": "enzo244.14",
+   "profissao": "Jogador de futebol e Medico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 223
+  },
+  {
+   "nome": "Alex",
+   "ig": "alex_s_oliveira94",
+   "profissao": "Marceneiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 224
   }
  ],
  "apoiadores": [],
@@ -384,7 +2000,8 @@
  "reservados": {
   "A-101": "o Síndico Interino",
   "A-302": "a Vizinha do 302",
-  "A-604": null
+  "A-604": null,
+  "B-704": null
  },
  "marcos": [
   [
@@ -434,6 +2051,15 @@
    "resumo": "Em um dia o Bloco A lotou: 21 janelas acesas com os nomes dos fundadores. O Síndico desligou a luz geral para economizar, a Larissa do 504 religou tudo, e 22 barracas já ocupam o terreno. Faltam 7 para começar o Bloco B. O 604 continua apagado.",
    "abertura": 43,
    "link": "https://www.instagram.com/reel/DgHnMewozrY/"
+  },
+  {
+   "n": 3,
+   "titulo": "Começou a obra!",
+   "data": "25/11/2026",
+   "publicado": true,
+   "resumo": "Um guindaste apareceu no terreno: o Bloco B já subiu até o 12º andar. 224 barracas assistem lá de fora, o Kai é o nº 1 da fila e o Walace conferiu o prumo. Só que o 704 foi vendido duas vezes.",
+   "abertura": 245,
+   "link": "https://www.instagram.com/reel/DgKfAy8R8Qg/"
   }
  ],
  "capitulos": [
@@ -471,6 +2097,21 @@
    "titulo": "Página arrancada",
    "ep": null,
    "aberto": false
+  },
+  {
+   "n": 4,
+   "titulo": "Começou a obra!",
+   "ep": 3,
+   "aberto": true,
+   "texto": [
+    "Acordei com um barulho de ferro e, quando abri a janela da guarita, tinha um guindaste no terreno. Ninguém avisou. A construtora nunca avisa.",
+    "É o Bloco B: quinze andares, sessenta apartamentos. Em uma noite subiu até o décimo segundo. Andaime, operário de capacete amarelo e uma betoneira que não para de girar.",
+    "O síndico interino desceu de bloquinho na mão e multou a betoneira por barulho. A betoneira continuou girando.",
+    "Lá fora, o acampamento virou arquibancada: duzentas e vinte e quatro barracas viradas para a obra. Na barraca número um, o Kai dos Ventiladores, primeiro da fila, não tirou o olho do guindaste. E o Walace, que é engenheiro, conferiu tudo com um fio de prumo lá do acampamento. Disse que está reto.",
+    "Só uma coisa não fecha. A janela do 704 ficou pronta antes de todas as outras, e tem duas placas de VENDIDO nela. Anotei aqui e sublinhei. Duas."
+   ],
+   "data": "25/11/2026",
+   "abertura": 245
   }
  ],
  "misterios": [
@@ -516,5 +2157,8 @@
    "texto": "Etiqueta escrita a lápis: “Construtora”.",
    "ativo": false
   }
+ ],
+ "pistas": [
+  "vendido_b704"
  ]
 }
