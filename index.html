@@ -181,6 +181,16 @@ p{max-width:62ch}
 .barracas{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
 .barraca{display:flex;align-items:center;gap:8px;background:#05060F;border:2px solid var(--linha);padding:6px 10px;font-family:var(--mono);font-size:20px;line-height:1}
 .barraca svg{width:22px;height:18px}
+.barraca.mais{border-style:dashed;color:var(--texto2)}
+.barraca.mais svg{width:66px;height:14px}
+.acamp-vazio{display:flex;gap:16px;align-items:center;background:#05060F;border:2px solid var(--linha);padding:12px 14px;width:100%}
+.acamp-vazio svg{flex:none;width:192px;height:96px;image-rendering:pixelated}
+.acamp-vazio b{font-family:var(--titulo);font-size:26px;color:var(--janela);font-weight:400}
+.acamp-vazio p{margin:4px 0 0;font-size:15px}
+.acamp-vazio .fumaca{animation:fumaca 2.4s steps(4) infinite}
+@keyframes fumaca{0%{transform:translateY(2px);opacity:1}100%{transform:translateY(-2px);opacity:.2}}
+@media (max-width:560px){.acamp-vazio{flex-direction:column;align-items:flex-start}}
+@media (prefers-reduced-motion:reduce){.acamp-vazio .fumaca{animation:none}}
 
 /* Chaveiro */
 .chaveiro{display:grid;grid-template-columns:1fr minmax(0,300px);gap:28px;align-items:start}
@@ -289,6 +299,13 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
 .combinado{margin-top:28px;background:#05060F;border:3px dashed var(--janela);padding:14px 16px}
 .combinado h3{color:var(--janela);font-size:28px}
 .combinado p{margin:0}
+.caixinha{margin-top:40px;display:flex;gap:18px;align-items:center;background:#05060F;border:3px solid var(--janela);box-shadow:inset -3px -3px 0 #2A2410,0 4px 0 #05060F;padding:16px 18px}
+.caixinha svg{flex:none;width:112px;height:84px;image-rendering:pixelated}
+.caixinha h3{margin:0 0 6px;color:var(--janela);font-size:28px}
+.caixinha p{margin:0 0 8px}
+.caixinha .piada{font-size:13px;font-style:italic;opacity:.75;margin-bottom:12px}
+.ponte{margin:22px 0 0;font-size:16px;color:var(--texto2)}
+@media (max-width:560px){.caixinha{flex-direction:column;align-items:flex-start}}
 .ficha-apoio{margin-top:20px;background:var(--papel);color:var(--tinta);border:3px solid #05060F;padding:6px 18px;max-width:760px;box-shadow:6px 6px 0 rgba(0,0,0,.45)}
 
 /* Caixa de sugestões */
@@ -425,41 +442,60 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
         </div>
       </div>
 
-      <h3 style="margin-top:40px">Boletos do condomínio</h3>
+      <div class="caixinha">
+        <svg viewBox="0 0 28 21" shape-rendering="crispEdges" aria-label="Cofrinho no balcão da portaria" role="img">
+          <rect x="0" y="14" width="28" height="7" fill="#8C4428"/><rect x="0" y="13" width="28" height="2" fill="#C0623B"/><rect x="2" y="16" width="24" height="1" fill="#6E331C"/>
+          <rect x="7" y="6" width="13" height="7" fill="#05060F"/><rect x="8" y="5" width="11" height="1" fill="#05060F"/>
+          <rect x="8" y="6" width="11" height="6" fill="#F28FAD"/><rect x="9" y="6" width="5" height="1" fill="#FFD1DE"/><rect x="18" y="8" width="3" height="3" fill="#F28FAD"/><rect x="20" y="9" width="1" height="1" fill="#05060F"/>
+          <rect x="16" y="7" width="1" height="1" fill="#05060F"/><rect x="11" y="5" width="4" height="1" fill="#05060F"/><rect x="9" y="12" width="2" height="1" fill="#05060F"/><rect x="16" y="12" width="2" height="1" fill="#05060F"/><rect x="7" y="8" width="1" height="1" fill="#D9708F"/>
+          <rect x="12" y="0" width="3" height="3" fill="#FFB703"/><rect x="12" y="0" width="1" height="1" fill="#FFF1C1"/><rect x="13" y="3" width="1" height="1" fill="#FFD25A"/>
+          <rect x="22" y="11" width="4" height="2" fill="#FFD25A"/><rect x="22" y="10" width="4" height="1" fill="#FFB703"/>
+        </svg>
+        <div>
+          <h3>🪙 Caixinha do porteiro</h3>
+          <p>Gostou do prédio? Qualquer valor a partir de R$ 2 ajuda a manter o Edifício 8 Bits de pé: mais episódios, mais blocos, mais moradores.</p>
+          <p class="piada">O porteiro agradece (e promete não contar pra ninguém).</p>
+          <a class="btn" href="https://livepix.gg/edificio8bits">Deixar na caixinha</a>
+        </div>
+      </div>
+      <p class="ponte">Quer deixar sua marca no prédio? Pague um boleto do condomínio 👇</p>
+
+      <h3 style="margin-top:28px">Boletos do condomínio</h3>
       <span class="selo-opc">OPCIONAL</span>
       <div class="boletos">
         <article class="boleto">
           <header><span>EDIFÍCIO 8 BITS</span><span>VENCIMENTO: NUNCA</span></header>
           <h4>Taxa extra da piscina</h4>
-          <div class="valor"><span class="ap">a partir de</span>R$ 2</div>
-          <ul><li>Um pet e um vaso de planta na sua janela</li></ul>
+          <div class="valor"><span class="ap">a partir de</span>R$ 5</div>
+          <ul><li>Janela dourada no prédio, em todo episódio</li></ul>
           <p class="piada">Multa por atraso: nenhuma. O síndico ficou bravo.</p>
           <div class="cod" aria-hidden="true"></div>
         </article>
         <article class="boleto destaque-boleto">
           <header><span>EDIFÍCIO 8 BITS</span><span>VENCIMENTO: NUNCA</span></header>
           <h4>Rateio da janela</h4>
-          <div class="valor"><span class="ap">a partir de</span>R$ 5</div>
-          <ul><li>Tudo da taxa da piscina</li><li>Janela dourada no prédio, em todo episódio</li><li>Nome nos créditos</li></ul>
+          <div class="valor"><span class="ap">a partir de</span>R$ 10</div>
+          <ul><li>Tudo da taxa da piscina</li><li>Um pet e um vaso de planta na sua janela</li></ul>
           <p class="piada">Juros: zero. Cafezinho na portaria: incluso.</p>
           <div class="cod" aria-hidden="true"></div>
         </article>
         <article class="boleto">
           <header><span>EDIFÍCIO 8 BITS</span><span>VENCIMENTO: NUNCA</span></header>
           <h4>Fundo do síndico de honra</h4>
-          <div class="valor"><span class="ap">a partir de</span>R$ 10</div>
+          <div class="valor"><span class="ap">a partir de</span>R$ 15</div>
           <ul><li>Tudo do rateio da janela</li><li>Janela decorada com luzinhas piscando</li><li>Seu boneco passeando na calçada do prédio (em rodízio)</li></ul>
           <p class="piada">Sem fiador, sem vistoria, sem papelada.</p>
           <div class="cod" aria-hidden="true"></div>
         </article>
       </div>
+      <p class="legenda" style="font-size:14px;margin:10px 0 0;opacity:.8">Apoio não compra apartamento, nem lugar na fila, nem papel na história.</p>
       <div class="boletos-mensal">
         <p>Prefere apoiar todo mês? No LivePix também dá para escolher a opção mensal.</p>
       </div>
 
       <div class="combinado">
         <h3>O combinado da portaria</h3>
-        <p>Apoio <b>não compra apartamento e não fura a fila</b>: os apartamentos continuam saindo só por ordem de comentário, para todo mundo. O apoio dá destaque (pet e vaso na janela, janela dourada, luzinhas) e ajuda a fazer mais episódios.</p>
+        <p>Apoio <b>não compra apartamento e não fura a fila</b>: os apartamentos continuam saindo só por ordem de comentário, para todo mundo. O apoio dá destaque (janela dourada, pet e vaso na janela, luzinhas) e ajuda a fazer mais episódios.</p>
       </div>
 
       <div class="ficha-apoio">
@@ -551,7 +587,7 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
   <section class="andar" id="episodios" data-andar="4">
     <span class="num-andar">4º ANDAR</span>
     <div class="wrap">
-      <div class="cab"><h2>Programação da TV</h2><p>Todos os episódios em ordem, com quantos moradores o prédio tinha em cada um.</p></div>
+      <div class="cab"><h2>Programação da TV</h2><p>Os três últimos episódios, com quantos moradores o prédio tinha em cada um.</p></div>
       <div class="prog" id="listaEps"></div>
     </div>
   </section>
@@ -583,7 +619,7 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
       <details><summary>O que é o acampamento?</summary><p>Quando o prédio lota, quem chega espera do lado de fora do muro, em ordem. Quando o próximo bloco inaugura, a fila entra nos apartamentos novos na mesma ordem.</p></details>
       <details><summary>O síndico e os vizinhos chatos são pessoas reais?</summary><p>Não. Todo o elenco que causa confusão é fictício. Nenhum morador real é usado como vilão.</p></details>
       <details><summary>Como posso apoiar o projeto?</summary><p>O Edifício 8 Bits é gratuito. Se quiser ajudar a produzir mais episódios, apoie pelo <a href="https://livepix.gg/edificio8bits">LivePix</a>. O apoio é voluntário.</p></details>
-      <details><summary>Apoiar me dá apartamento ou fura a fila?</summary><p>Não. Apartamentos saem só por ordem de comentário. O apoio é voluntário e dá destaque: pet e vaso na janela, janela dourada, nome nos créditos e luzinhas. Veja a <a href="#apoio">área de lazer</a>.</p></details>
+      <details><summary>Apoiar me dá apartamento ou fura a fila?</summary><p>Não. Apartamentos saem só por ordem de comentário. O apoio é voluntário e dá destaque: janela dourada, pet e vaso na janela e luzinhas. Veja a <a href="#apoio">área de lazer</a>.</p></details>
       <details><summary>Posso sugerir uma ideia para a história?</summary><p>Pode. Use a <a href="#sugestoes">caixa de sugestões da portaria</a> ou comente começando com IDEIA no último vídeo. O porteiro lê tudo.</p></details>
       <details><summary>Quero sair. Como faço?</summary><p>Mande uma DM para o @edificio8bits. Seu nome sai do prédio e o apartamento vai para o próximo da fila.</p></details>
       <div class="legal" id="termos">
@@ -609,9 +645,9 @@ function iniciar(DADOS){
 /* Nada é recalculado: apto, bloco, fundador e fila vêm do moradores.csv */
 const HOJE=new Date().toLocaleDateString("sv-SE");/* AAAA-MM-DD: só vale apoio com valido_ate >= hoje */
 const APOIO=(DADOS.apoiadores||[]).filter(a=>a&&a.ate&&a.ate>=HOJE);
-const pessoas=DADOS.moradores.map((m,i)=>({nome:m.nome,ig:m.ig,prof:m.profissao,bloco:m.bloco,apto:m.apto,fila:m.fila,fundador:m.fundador,status:m.status,nivel:(m.apoio&&m.apoio.ate>=HOJE)?m.apoio.nivel:null,ordem:i+1}));
-pessoas.forEach(p=>{p.apoio=p.nivel==="janela"||p.nivel==="benfeitor";p.luzes=p.nivel==="benfeitor";
-  let h=0;for(const c of String(p.ig||p.nome).toLowerCase())h=(h*31+c.charCodeAt(0))>>>0;p.pet=p.nivel?(h%2?"gato":"cachorro"):null;p.petCor=["#3A2414","#7A5232","#8A8FA3"][h%3]});
+const pessoas=DADOS.moradores.map((m,i)=>({nome:m.nome,ig:m.ig,prof:m.profissao,bloco:m.bloco,apto:m.apto,fila:m.fila,fundador:m.fundador,status:m.status,nivel:(m.apoio&&m.apoio.ate>=HOJE)?m.apoio.nivel:null,petEsc:m.apoio?m.apoio.pet:null,ordem:i+1}));
+pessoas.forEach(p=>{p.apoio=!!p.nivel;p.temPet=p.nivel==="janela"||p.nivel==="benfeitor";p.luzes=p.nivel==="benfeitor";
+  let h=0;for(const c of String(p.ig||p.nome).toLowerCase())h=(h*31+c.charCodeAt(0))>>>0;p.pet=p.temPet?(["gato","cachorro"].includes(p.petEsc)?p.petEsc:(h%2?"gato":"cachorro")):null;p.petCor=["#3A2414","#7A5232","#8A8FA3"][h%3]});
 const noPredio=pessoas.filter(p=>p.status!=="fila"&&p.apto),naFila=pessoas.filter(p=>p.fila).sort((a,b)=>a.fila-b.fila),total=pessoas.length;
 const porApto={};noPredio.forEach(p=>{if(p.bloco==="A")porApto[p.apto]=p});
 const RES={};Object.entries(DADOS.reservados).forEach(([k,v])=>{const[b,a]=k.split("-");if(b==="A")RES[+a]=v});
@@ -626,8 +662,7 @@ const C={noite:"#1B1A33",janela:"#FFD25A",brilho:"#FFF1C1",tijolo:"#C0623B",tijo
 const ESTRELAS=[[8,8],[30,14],[52,6],[90,10],[120,4],[150,12],[178,7],[110,20],[166,24],[12,30],[140,30],[74,22],[184,34]];
 const ALVOS=[];let tique=0,destaqueAtual=null,acesas=0;
 /* Enfeites dos apoiadores (3x3 px cada) */
-const PET={gato:["101","111","111"],cachorro:["110","111","101"]};
-const LUZ=["#E63946","#4E9F5B","#4A7BD0","#FFF1C1"];
+const PET={gato:["101","111","111"],cachorro:["110","111","101"]};const LUZ=["#E63946","#4E9F5B","#4A7BD0","#FFF1C1"];
 function enfeite(ctx,x,y,p){PET[p.pet].forEach((l,j)=>[...l].forEach((v,i)=>{if(v==="1"){ctx.fillStyle=p.petCor;ctx.fillRect(x+i,y+j,1,1)}}))}
 function vaso(ctx,x,y){ctx.fillStyle="#2E7D3A";ctx.fillRect(x,y,1,1);ctx.fillRect(x+2,y,1,1);ctx.fillRect(x+1,y+1,1,1);ctx.fillStyle="#E07A3F";ctx.fillRect(x,y+2,3,1)}
 function desenharCena(ctx,o={}){
@@ -649,7 +684,7 @@ function desenharCena(ctx,o={}){
     ctx.fillStyle=C.escuro;ctx.fillRect(x-1,y-1,w+2,h+2);ctx.fillStyle=cor;ctx.fillRect(x,y,w,h);
     if(cor!==C.vazia&&cor!=="#121428"){ctx.fillStyle=C.brilho;ctx.fillRect(x+1,y+1,2,2)}
     ctx.fillStyle=C.escuro;ctx.fillRect(x+3,y,1,h);
-    if(p&&p.ordem<=lim&&p.nivel&&!(apto in RES)&&apto!==604){enfeite(ctx,x,y+4,p);vaso(ctx,x+4,y+4);
+    if(p&&p.ordem<=lim&&p.temPet&&!(apto in RES)&&apto!==604){enfeite(ctx,x,y+4,p);vaso(ctx,x+4,y+4);
       if(p.luzes)for(let k=0;k<5;k++){ctx.fillStyle=LUZ[(k+t)%4];ctx.fillRect(x-1+k*2,y-1,1,1)}}
     if(destaque===apto){ctx.strokeStyle="#FFFFFF";ctx.lineWidth=1;ctx.strokeRect(x-1.5,y-1.5,w+3,h+3)}
   }
@@ -677,7 +712,7 @@ function desenharCena(ctx,o={}){
   for(let i=0;i<max;i++){const col=i%4,lin=Math.floor(i/4),x=142+col*12,y=96-lin*9;
     const pb=naFila[Math.floor(i*porBarraca)];
     ctx.fillStyle=pb.apoio?"#FFB703":i%2?"#4A7BD0":C.treta;for(let k=0;k<5;k++)ctx.fillRect(x+4-k,y+k,1+2*k,1);ctx.fillStyle=C.escuro;ctx.fillRect(x+4,y+2,1,3);
-    if(pb.nivel){vaso(ctx,x+9,y+2);enfeite(ctx,x+3,y+2,pb)}
+    if(pb.temPet){vaso(ctx,x+9,y+2);enfeite(ctx,x+3,y+2,pb)}
     if(pb.luzes)for(let k=0;k<5;k++){ctx.fillStyle=LUZ[(k+t)%4];ctx.fillRect(x+4-k,y+k,1,1);ctx.fillRect(x+4+k,y+k,1,1)}
     ALVOS.push({tipo:"barraca",p:pb,x,y,w:9,h:5})}
   if(naFila.length){ctx.fillStyle="#5A3A1C";ctx.fillRect(140,104,6,1);ctx.fillStyle=t%2?"#FF9F43":C.janela;ctx.fillRect(142,101,2,3);ctx.fillStyle=C.treta;ctx.fillRect(141+(t%2),102,1,2)}
@@ -702,8 +737,8 @@ cena.addEventListener("click",e=>{
   if(a.tipo==="apto"){destaqueAtual=a.apto;render();
     if(a.apto===604){info.textContent="604? Nunca vi ninguém entrar. Nem sair. Melhor não perguntar.";return}
     if(a.apto in RES){info.textContent="Apto "+a.apto+": aí mora "+RES[a.apto]+". Personagem, viu? Mas o barulho é real.";return}
-    const p=porApto[a.apto];info.innerHTML=p?"Apto "+a.apto+": <b>"+esc(p.nome)+"</b>, "+esc(p.prof)+(p.fundador?". Fundador(a)!":".")+(p.nivel?" Na janela: um "+p.pet+" e um vaso de planta.":"")+(p.apoio?" Janela dourada: apoia a obra.":"")+(p.luzes?" Com luzinhas!":"")+" @"+esc(p.ig):"Apto "+a.apto+": vazio ainda. Pode ser o seu.";return}
-  if(a.tipo==="barraca"){info.innerHTML="Barraca nº "+a.p.fila+": <b>"+esc(a.p.nome)+"</b>, "+esc(a.p.prof)+"."+(a.p.nivel?" Do lado: um "+a.p.pet+" e um vaso de planta.":"")+(a.p.apoio?" Barraca dourada: apoia a obra.":"")+(a.p.luzes?" Com luzinhas!":"")+" Esperando o Bloco B.";return}
+    const p=porApto[a.apto];info.innerHTML=p?"Apto "+a.apto+": <b>"+esc(p.nome)+"</b>, "+esc(p.prof)+(p.fundador?". Fundador(a)!":".")+(p.temPet?" Na janela: um "+p.pet+" e um vaso de planta.":"")+(p.apoio?" Janela dourada: apoia a obra.":"")+(p.luzes?" Com luzinhas!":"")+" @"+esc(p.ig):"Apto "+a.apto+": vazio ainda. Pode ser o seu.";return}
+  if(a.tipo==="barraca"){info.innerHTML="Barraca nº "+a.p.fila+": <b>"+esc(a.p.nome)+"</b>, "+esc(a.p.prof)+"."+(a.p.temPet?" Do lado: um "+a.p.pet+" e um vaso de planta.":"")+(a.p.apoio?" Barraca dourada: apoia a obra.":"")+(a.p.luzes?" Com luzinhas!":"")+" Esperando o Bloco B.";return}
   if(a.tipo==="vendido"){info.textContent="Essa janela da obra tem duas placas de VENDIDO. Duas. No mesmo apartamento. Vou fingir que não vi.";return}
   if(a.tipo==="obra"){info.textContent="Bloco B: a obra começa com "+(obraB?obraB[0]:"mais")+" moradores. O cimento, ninguém sabe.";return}
   if(a.tipo==="portaria"){info.textContent="Essa é a minha guarita. Daqui eu vejo tudo. E conto tudo.";return}
@@ -769,8 +804,25 @@ document.getElementById("listaMist").innerHTML=DADOS.misterios.map(m=>'<div>'+sv
 
 /* ===== Interfone ===== */
 document.getElementById("listaFund").innerHTML=noPredio.map(p=>'<li><span>'+esc(p.nome)+' · '+esc(p.prof)+'</span><em>'+aptoTxt(p)+'</em></li>').join("");
-document.getElementById("listaFila").innerHTML=naFila.map(p=>'<div class="barraca">'+svg("barraca",p.apoio?"#FFB703":p.fila%2?"#E63946":"#4A7BD0")+'<span>'+p.fila+' · '+esc(p.nome)+'</span></div>').join("");
-document.getElementById("legFila").textContent=naFila.length+" pessoas do lado de fora do muro. Entram primeiro quando o Bloco B abrir.";
+/* Fila: só as 100 primeiras barracas (com 500, 1000 pessoas a página não pesa). Fila vazia = acampamento desmontado */
+const ACAMP_VAZIO='<div class="acamp-vazio"><svg viewBox="0 0 48 24" shape-rendering="crispEdges" aria-label="Acampamento desmontado: marcas das barracas na grama, fogueira apagada e uma placa">'+
+ '<rect x="0" y="15" width="48" height="9" fill="#2E6B3A"/><rect x="0" y="15" width="48" height="1" fill="#3F8A4A"/>'+
+ /* grama amassada e estacas onde ficavam as barracas */
+ [[3,18],[13,21],[30,20]].map(([x,y])=>'<rect x="'+x+'" y="'+y+'" width="7" height="2" fill="#4E9A58"/><rect x="'+(x-1)+'" y="'+(y+1)+'" width="1" height="1" fill="#6B3E1F"/><rect x="'+(x+7)+'" y="'+(y+1)+'" width="1" height="1" fill="#6B3E1F"/>').join("")+
+ /* fogueira apagada: pedras, lenha e fumacinha */
+ '<rect x="20" y="17" width="1" height="1" fill="#8A8FA3"/><rect x="27" y="17" width="1" height="1" fill="#8A8FA3"/><rect x="21" y="18" width="6" height="1" fill="#8A8FA3"/>'+
+ '<rect x="21" y="16" width="2" height="1" fill="#6B3E1F"/><rect x="23" y="15" width="2" height="1" fill="#4A2A14"/><rect x="25" y="16" width="2" height="1" fill="#6B3E1F"/><rect x="23" y="16" width="2" height="1" fill="#2A2A33"/>'+
+ '<g class="fumaca" fill="#B9BCCB"><rect x="24" y="12" width="1" height="1"/><rect x="23" y="10" width="1" height="1"/><rect x="24" y="8" width="1" height="1" opacity=".6"/><rect x="25" y="6" width="1" height="1" opacity=".35"/></g>'+
+ /* placa com casinha */
+ '<rect x="40" y="9" width="1" height="8" fill="#6B3E1F"/><rect x="35" y="3" width="11" height="7" fill="#C8955A"/><rect x="35" y="9" width="11" height="1" fill="#8A5A2E"/>'+
+ '<rect x="40" y="4" width="1" height="1" fill="#C0623B"/><rect x="39" y="5" width="3" height="1" fill="#C0623B"/><rect x="38" y="6" width="5" height="1" fill="#C0623B"/><rect x="39" y="7" width="3" height="2" fill="#F4F1E8"/><rect x="40" y="8" width="1" height="1" fill="#FFD25A"/>'+
+ '</svg><div><b>Todo mundo entrou! 🏠</b><p>O acampamento foi desmontado: todos da fila ganharam apartamento. Quem comentar NOME + PROFISSÃO agora entra direto no prédio.</p></div></div>';
+/* Depois da 100: cartão com barracas cinzas sumindo no horizonte + quantas faltam */
+const filaResto=naFila.length-100,MAIS_FILA=filaResto<=0?"":'<div class="barraca mais" title="Mais '+filaResto+' barracas na fila"><svg viewBox="0 0 27 5" aria-hidden="true" shape-rendering="crispEdges">'+
+ [[0,1],[10,.55],[20,.25]].map(([dx,o])=>'<g fill="#8A8FA3" opacity="'+o+'">'+ICON.barraca.map((l,y)=>[...l].map((v,x)=>v==="1"?'<rect x="'+(x+dx)+'" y="'+y+'" width="1" height="1"/>':"").join("")).join("")+'</g>').join("")+
+ '</svg><span>+'+filaResto+' barracas…</span></div>';
+document.getElementById("listaFila").innerHTML=!naFila.length?ACAMP_VAZIO:naFila.slice(0,100).map(p=>'<div class="barraca">'+svg("barraca",p.apoio?"#FFB703":p.fila%2?"#E63946":"#4A7BD0")+'<span>'+p.fila+' · '+esc(p.nome)+'</span></div>').join("")+MAIS_FILA;
+document.getElementById("legFila").textContent=!naFila.length?"Ninguém do lado de fora do muro.":naFila.length+" pessoas do lado de fora do muro. Entram primeiro quando o Bloco B abrir.";
 const norm=s=>s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/^@/,"").trim();
 function acharPessoa(q){const n=norm(q);return pessoas.find(p=>norm(p.ig)===n)||pessoas.find(p=>norm(p.nome)===n)}
 document.getElementById("formBusca").addEventListener("submit",e=>{e.preventDefault();
@@ -818,7 +870,9 @@ document.getElementById("formChave").addEventListener("submit",async e=>{e.preve
 });
 
 /* ===== Programação, caixas, regulamento ===== */
-document.getElementById("listaEps").innerHTML=DADOS.episodios.map(e=>'<div class="item'+(e.abertura===null?" breve":"")+'"><div class="canal">EP'+e.n+'</div><div><h3>'+esc(e.titulo)+'</h3><p>'+esc(e.data)+(e.abertura!==null?' · '+e.abertura+' moradores na abertura':'')+'</p></div>'+(e.link?'<a class="btn claro" href="'+e.link+'">Ver</a>':'<span class="legenda">em breve</span>')+'</div>').join("");
+/* Só os 3 últimos que já foram ao ar (+ o próximo "em breve", se houver) */
+const epsNoAr=DADOS.episodios.filter(e=>e.abertura!==null),epsTV=[...epsNoAr.slice(-3),...DADOS.episodios.filter(e=>e.abertura===null).slice(0,1)];
+document.getElementById("listaEps").innerHTML=epsTV.map(e=>'<div class="item'+(e.abertura===null?" breve":"")+'"><div class="canal">EP'+e.n+'</div><div><h3>'+esc(e.titulo)+'</h3><p>'+esc(e.data)+(e.abertura!==null?' · '+e.abertura+' moradores na abertura':'')+'</p></div>'+(e.link?'<a class="btn claro" href="'+e.link+'">Ver</a>':'<span class="legenda">em breve</span>')+'</div>').join("");
 document.getElementById("listaElenco").innerHTML=DADOS.elenco.map(x=>'<div class="caixa'+(x.ativo?"":" lacrada")+'"><div class="fenda"></div><div class="etiqueta"><small>'+esc(x.local)+'</small><h3>'+esc(x.titulo)+'</h3><p>'+esc(x.texto)+'</p></div></div>').join("");
 
 
@@ -838,7 +892,7 @@ document.getElementById("listaElenco").innerHTML=DADOS.elenco.map(x=>'<div class
     pc.fillStyle=t%2?"#FFD25A":"#7A6A3A";pc.fillRect(116,40,3,3);pc.fillStyle="#4A4F66";pc.fillRect(117,43,1,9);}
   const sc=document.getElementById("cenaSalao").getContext("2d");sc.imageSmoothingEnabled=false;
   const cores=["#E63946","#4A7BD0","#4E9F5B","#C0623B","#FFD25A","#9B5DE5"];
-  const conv=APOIO.filter(a=>a.nivel!=="tijolo");
+  const conv=APOIO;
   function salao(t){sc.fillStyle="#2A1E3A";sc.fillRect(0,0,160,72);sc.fillStyle="#3A2A50";sc.fillRect(0,54,160,18);
     for(let x=0;x<160;x+=8)for(let y=56;y<72;y+=8){sc.fillStyle=((x+y)/8)%2?"#3A2A50":"#4A3866";sc.fillRect(x,y,8,8)}
     for(let i=0;i<16;i++){const x=6+i*10,y=8+(i%2?3:0);sc.fillStyle="#05060F";sc.fillRect(x,y-1,1,1);sc.fillStyle=(i+t)%3===0?"#FFF1C1":cores[i%cores.length];sc.fillRect(x,y,2,2)}

@@ -1,9 +1,9 @@
 {
- "gerado_em": "2026-11-25 12:40",
+ "gerado_em": "2026-11-25 15:19",
  "totais": {
-  "inscritos": 272,
+  "inscritos": 273,
   "moradores": 21,
-  "fila": 251,
+  "fila": 252,
   "fundadores": 21,
   "apoiadores": 0
  },
@@ -2204,6 +2204,14 @@
    "status": "fila",
    "fundador": false,
    "fila": 251
+  },
+  {
+   "nome": "Luís",
+   "ig": "__danylo.ofc",
+   "profissao": "borracheiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 252
   }
  ],
  "apoiadores": [],
