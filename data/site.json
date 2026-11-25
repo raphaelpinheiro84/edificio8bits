@@ -1,9 +1,9 @@
 {
- "gerado_em": "2026-11-25 09:03",
+ "gerado_em": "2026-11-25 12:40",
  "totais": {
-  "inscritos": 245,
+  "inscritos": 272,
   "moradores": 21,
-  "fila": 224,
+  "fila": 251,
   "fundadores": 21,
   "apoiadores": 0
  },
@@ -430,7 +430,7 @@
    "fila": 29
   },
   {
-   "nome": "Euuuuu",
+   "nome": "Wgk Rz",
    "ig": "wgk.rz_",
    "profissao": "Pedreiro",
    "status": "fila",
@@ -1988,6 +1988,222 @@
    "status": "fila",
    "fundador": false,
    "fila": 224
+  },
+  {
+   "nome": "Ingrid Nogueira",
+   "ig": "fr.ingrid30",
+   "profissao": "Professora",
+   "status": "fila",
+   "fundador": false,
+   "fila": 225
+  },
+  {
+   "nome": "John",
+   "ig": "zero.kkkkkkj",
+   "profissao": "Gamer",
+   "status": "fila",
+   "fundador": false,
+   "fila": 226
+  },
+  {
+   "nome": "Danilo",
+   "ig": "euu_danilo02",
+   "profissao": "Advogado",
+   "status": "fila",
+   "fundador": false,
+   "fila": 227
+  },
+  {
+   "nome": "Isaaczin",
+   "ig": "isaaczin_cst093",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 228
+  },
+  {
+   "nome": "Arthur Ribeiro",
+   "ig": "arthurribeiro220915",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "fila": 229
+  },
+  {
+   "nome": "Isaac",
+   "ig": "sx.pereir4._",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 230
+  },
+  {
+   "nome": "Emerson",
+   "ig": "emers_onmoreirab",
+   "profissao": "Pedreiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 231
+  },
+  {
+   "nome": "Gustavo",
+   "ig": "neymar_gusta11",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 232
+  },
+  {
+   "nome": "Busk FK",
+   "ig": "bus_fk_oficial",
+   "profissao": "Motorista de ônibus",
+   "status": "fila",
+   "fundador": false,
+   "fila": 233
+  },
+  {
+   "nome": "Maria das Dores",
+   "ig": "bandeira.mariadasdores",
+   "profissao": "Vendedora",
+   "status": "fila",
+   "fundador": false,
+   "fila": 234
+  },
+  {
+   "nome": "Lavinia",
+   "ig": "_lavinia.mirella",
+   "profissao": "Profissional de saúde",
+   "status": "fila",
+   "fundador": false,
+   "fila": 235
+  },
+  {
+   "nome": "Erick",
+   "ig": "erick_juniorslk",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 236
+  },
+  {
+   "nome": "Brenda",
+   "ig": "brenda.201510",
+   "profissao": "Advogada",
+   "status": "fila",
+   "fundador": false,
+   "fila": 237
+  },
+  {
+   "nome": "Sthefany",
+   "ig": "fernanda_123413",
+   "profissao": "Faxineira",
+   "status": "fila",
+   "fundador": false,
+   "fila": 238
+  },
+  {
+   "nome": "Davi 777",
+   "ig": "davi_luiz7778",
+   "profissao": "Militar do exército",
+   "status": "fila",
+   "fundador": false,
+   "fila": 239
+  },
+  {
+   "nome": "Davi",
+   "ig": "davi.lucas2715",
+   "profissao": "Polícia militar",
+   "status": "fila",
+   "fundador": false,
+   "fila": 240
+  },
+  {
+   "nome": "Marcos Dias",
+   "ig": "dias_marcos48",
+   "profissao": "Professor",
+   "status": "fila",
+   "fundador": false,
+   "fila": 241
+  },
+  {
+   "nome": "Rafael elias",
+   "ig": "rafaelias0120",
+   "profissao": "Sushiman",
+   "status": "fila",
+   "fundador": false,
+   "fila": 242
+  },
+  {
+   "nome": "Henzo Lopes",
+   "ig": "he_gomesgabriell",
+   "profissao": "Professor de taekwondo",
+   "status": "fila",
+   "fundador": false,
+   "fila": 243
+  },
+  {
+   "nome": "Pedro",
+   "ig": "pedro_demichei",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 244
+  },
+  {
+   "nome": "Caleb",
+   "ig": "caleb_sb171",
+   "profissao": "Soldado do exército",
+   "status": "fila",
+   "fundador": false,
+   "fila": 245
+  },
+  {
+   "nome": "Paulo Henrique",
+   "ig": "paulo_22317",
+   "profissao": "Professor",
+   "status": "fila",
+   "fundador": false,
+   "fila": 246
+  },
+  {
+   "nome": "Wagner Leite",
+   "ig": "wagner_leite_jr",
+   "profissao": "Policial",
+   "status": "fila",
+   "fundador": false,
+   "fila": 247
+  },
+  {
+   "nome": "Sarah",
+   "ig": "sarah.borges.nunes",
+   "profissao": "Professora de educação Fisica",
+   "status": "fila",
+   "fundador": false,
+   "fila": 248
+  },
+  {
+   "nome": "João",
+   "ig": "eujoao11__",
+   "profissao": "Jogador",
+   "status": "fila",
+   "fundador": false,
+   "fila": 249
+  },
+  {
+   "nome": "Davi Luiz",
+   "ig": "davi90luiz",
+   "profissao": "Cientista da NASA",
+   "status": "fila",
+   "fundador": false,
+   "fila": 250
+  },
+  {
+   "nome": "Sarinha kerolyzinha",
+   "ig": "sarinhakerolyzinha",
+   "profissao": "Dentista",
+   "status": "fila",
+   "fundador": false,
+   "fila": 251
   }
  ],
  "apoiadores": [],
