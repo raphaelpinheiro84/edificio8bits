@@ -1,9 +1,9 @@
 {
- "gerado_em": "2026-11-25 15:19",
+ "gerado_em": "2026-11-26 06:22",
  "totais": {
-  "inscritos": 273,
+  "inscritos": 276,
   "moradores": 21,
-  "fila": 252,
+  "fila": 255,
   "fundadores": 21,
   "apoiadores": 0
  },
@@ -374,9 +374,9 @@
    "fila": 22
   },
   {
-   "nome": "Jhonsx",
+   "nome": "Jhon",
    "ig": "jhonsx39",
-   "profissao": "Desempregado",
+   "profissao": "Médico",
    "status": "fila",
    "fundador": false,
    "fila": 23
@@ -654,20 +654,12 @@
    "fila": 57
   },
   {
-   "nome": "Siilvazz",
-   "ig": "siilvazz.0",
-   "profissao": "Cientista",
-   "status": "fila",
-   "fundador": false,
-   "fila": 58
-  },
-  {
    "nome": "Yasmin",
    "ig": "alves_yasmincristina",
    "profissao": "Bióloga Marinha",
    "status": "fila",
    "fundador": false,
-   "fila": 59
+   "fila": 58
   },
   {
    "nome": "Ryan",
@@ -675,7 +667,7 @@
    "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "fila": 60
+   "fila": 59
   },
   {
    "nome": "Emy R15",
@@ -683,7 +675,7 @@
    "profissao": "Desempregada",
    "status": "fila",
    "fundador": false,
-   "fila": 61
+   "fila": 60
   },
   {
    "nome": "Gabriel",
@@ -691,7 +683,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 62
+   "fila": 61
   },
   {
    "nome": "Vinicius",
@@ -699,7 +691,7 @@
    "profissao": "Encanador",
    "status": "fila",
    "fundador": false,
-   "fila": 63
+   "fila": 62
   },
   {
    "nome": "Anny",
@@ -707,7 +699,7 @@
    "profissao": "Dentista",
    "status": "fila",
    "fundador": false,
-   "fila": 64
+   "fila": 63
   },
   {
    "nome": "Nicolas",
@@ -715,7 +707,7 @@
    "profissao": "Estudante",
    "status": "fila",
    "fundador": false,
-   "fila": 65
+   "fila": 64
   },
   {
    "nome": "Miguel Gabrielapa",
@@ -723,7 +715,7 @@
    "profissao": "Desempregado",
    "status": "fila",
    "fundador": false,
-   "fila": 66
+   "fila": 65
   },
   {
    "nome": "Lucas",
@@ -731,7 +723,7 @@
    "profissao": "Físico",
    "status": "fila",
    "fundador": false,
-   "fila": 67
+   "fila": 66
   },
   {
    "nome": "Enzo",
@@ -739,7 +731,7 @@
    "profissao": "Bombeiro",
    "status": "fila",
    "fundador": false,
-   "fila": 68
+   "fila": 67
   },
   {
    "nome": "Mine Sarah",
@@ -747,7 +739,7 @@
    "profissao": "Estudante",
    "status": "fila",
    "fundador": false,
-   "fila": 69
+   "fila": 68
   },
   {
    "nome": "Lizy37135",
@@ -755,7 +747,7 @@
    "profissao": "Veterinária",
    "status": "fila",
    "fundador": false,
-   "fila": 70
+   "fila": 69
   },
   {
    "nome": "Euuuu",
@@ -763,7 +755,7 @@
    "profissao": "244",
    "status": "fila",
    "fundador": false,
-   "fila": 71
+   "fila": 70
   },
   {
    "nome": "Heitor",
@@ -771,7 +763,7 @@
    "profissao": "Lutador",
    "status": "fila",
    "fundador": false,
-   "fila": 72
+   "fila": 71
   },
   {
    "nome": "Vitor",
@@ -779,7 +771,7 @@
    "profissao": "Pedreiro",
    "status": "fila",
    "fundador": false,
-   "fila": 73
+   "fila": 72
   },
   {
    "nome": "Iasmim",
@@ -787,7 +779,7 @@
    "profissao": "Médica",
    "status": "fila",
    "fundador": false,
-   "fila": 74
+   "fila": 73
   },
   {
    "nome": "Heloysa",
@@ -795,7 +787,7 @@
    "profissao": "Médica",
    "status": "fila",
    "fundador": false,
-   "fila": 75
+   "fila": 74
   },
   {
    "nome": "Abraão",
@@ -803,7 +795,7 @@
    "profissao": "Cozinheiro",
    "status": "fila",
    "fundador": false,
-   "fila": 76
+   "fila": 75
   },
   {
    "nome": "Gazola Edits",
@@ -811,7 +803,7 @@
    "profissao": "Caminhoneiro",
    "status": "fila",
    "fundador": false,
-   "fila": 77
+   "fila": 76
   },
   {
    "nome": "Allef",
@@ -819,7 +811,7 @@
    "profissao": "Policial da BOPE",
    "status": "fila",
    "fundador": false,
-   "fila": 78
+   "fila": 77
   },
   {
    "nome": "Pedro",
@@ -827,7 +819,7 @@
    "profissao": "Jogador de futebol",
    "status": "fila",
    "fundador": false,
-   "fila": 79
+   "fila": 78
   },
   {
    "nome": "Tiago",
@@ -835,7 +827,7 @@
    "profissao": "Eletrecista",
    "status": "fila",
    "fundador": false,
-   "fila": 80
+   "fila": 79
   },
   {
    "nome": "Lucas",
@@ -843,7 +835,7 @@
    "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "fila": 81
+   "fila": 80
   },
   {
    "nome": "Willam",
@@ -851,7 +843,7 @@
    "profissao": "Padre",
    "status": "fila",
    "fundador": false,
-   "fila": 82
+   "fila": 81
   },
   {
    "nome": "Maria Roberta",
@@ -859,7 +851,7 @@
    "profissao": "Psicóloga",
    "status": "fila",
    "fundador": false,
-   "fila": 83
+   "fila": 82
   },
   {
    "nome": "Edivan",
@@ -867,7 +859,7 @@
    "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "fila": 84
+   "fila": 83
   },
   {
    "nome": "Muniz",
@@ -875,7 +867,7 @@
    "profissao": "Vendedor de alegria",
    "status": "fila",
    "fundador": false,
-   "fila": 85
+   "fila": 84
   },
   {
    "nome": "Natália",
@@ -883,7 +875,7 @@
    "profissao": "Vendedora",
    "status": "fila",
    "fundador": false,
-   "fila": 86
+   "fila": 85
   },
   {
    "nome": "Angelyca",
@@ -891,7 +883,7 @@
    "profissao": "Enfermeira",
    "status": "fila",
    "fundador": false,
-   "fila": 87
+   "fila": 86
   },
   {
    "nome": "Karol",
@@ -899,15 +891,15 @@
    "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "fila": 88
+   "fila": 87
   },
   {
-   "nome": "Escolhe",
+   "nome": "Fabricio",
    "ig": "f.santxz466",
-   "profissao": "eu",
+   "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "fila": 89
+   "fila": 88
   },
   {
    "nome": "João",
@@ -915,7 +907,7 @@
    "profissao": "Padre",
    "status": "fila",
    "fundador": false,
-   "fila": 90
+   "fila": 89
   },
   {
    "nome": "Deny",
@@ -923,7 +915,7 @@
    "profissao": "Pedreiro",
    "status": "fila",
    "fundador": false,
-   "fila": 91
+   "fila": 90
   },
   {
    "nome": "Marcela",
@@ -931,7 +923,7 @@
    "profissao": "Gestora de Projetos Digitais",
    "status": "fila",
    "fundador": false,
-   "fila": 92
+   "fila": 91
   },
   {
    "nome": "Tina",
@@ -939,7 +931,7 @@
    "profissao": "Dubladora",
    "status": "fila",
    "fundador": false,
-   "fila": 93
+   "fila": 92
   },
   {
    "nome": "Vitoria Emanuelly",
@@ -947,7 +939,7 @@
    "profissao": "Freira",
    "status": "fila",
    "fundador": false,
-   "fila": 94
+   "fila": 93
   },
   {
    "nome": "Tauane",
@@ -955,7 +947,7 @@
    "profissao": "Parteira",
    "status": "fila",
    "fundador": false,
-   "fila": 95
+   "fila": 94
   },
   {
    "nome": "Maria Yumis",
@@ -963,7 +955,7 @@
    "profissao": "Desempregada",
    "status": "fila",
    "fundador": false,
-   "fila": 96
+   "fila": 95
   },
   {
    "nome": "Atos",
@@ -971,7 +963,7 @@
    "profissao": "Cirurgião",
    "status": "fila",
    "fundador": false,
-   "fila": 97
+   "fila": 96
   },
   {
    "nome": "Brayan",
@@ -979,7 +971,7 @@
    "profissao": "Advogado",
    "status": "fila",
    "fundador": false,
-   "fila": 98
+   "fila": 97
   },
   {
    "nome": "Davizinho",
@@ -987,7 +979,7 @@
    "profissao": "Eletricista",
    "status": "fila",
    "fundador": false,
-   "fila": 99
+   "fila": 98
   },
   {
    "nome": "Gabriel",
@@ -995,7 +987,7 @@
    "profissao": "Militar",
    "status": "fila",
    "fundador": false,
-   "fila": 100
+   "fila": 99
   },
   {
    "nome": "Natan",
@@ -1003,7 +995,7 @@
    "profissao": "Bombeiro",
    "status": "fila",
    "fundador": false,
-   "fila": 101
+   "fila": 100
   },
   {
    "nome": "Heitor",
@@ -1011,7 +1003,7 @@
    "profissao": "Programador",
    "status": "fila",
    "fundador": false,
-   "fila": 102
+   "fila": 101
   },
   {
    "nome": "Leonardo",
@@ -1019,7 +1011,7 @@
    "profissao": "Jogador de futebol",
    "status": "fila",
    "fundador": false,
-   "fila": 103
+   "fila": 102
   },
   {
    "nome": "Santos Ruan",
@@ -1027,7 +1019,7 @@
    "profissao": "Empresário",
    "status": "fila",
    "fundador": false,
-   "fila": 104
+   "fila": 103
   },
   {
    "nome": "Ana Victória",
@@ -1035,7 +1027,7 @@
    "profissao": "Jogadora de stardew valley",
    "status": "fila",
    "fundador": false,
-   "fila": 105
+   "fila": 104
   },
   {
    "nome": "Kyara",
@@ -1043,7 +1035,7 @@
    "profissao": "Estudante",
    "status": "fila",
    "fundador": false,
-   "fila": 106
+   "fila": 105
   },
   {
    "nome": "Yalk",
@@ -1051,7 +1043,7 @@
    "profissao": "Lutador",
    "status": "fila",
    "fundador": false,
-   "fila": 107
+   "fila": 106
   },
   {
    "nome": "Joao",
@@ -1059,7 +1051,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 108
+   "fila": 107
   },
   {
    "nome": "Augustinho",
@@ -1067,7 +1059,7 @@
    "profissao": "Taxista",
    "status": "fila",
    "fundador": false,
-   "fila": 109
+   "fila": 108
   },
   {
    "nome": "Pedro",
@@ -1075,7 +1067,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 110
+   "fila": 109
   },
   {
    "nome": "Ane",
@@ -1083,7 +1075,7 @@
    "profissao": "Cafetina",
    "status": "fila",
    "fundador": false,
-   "fila": 111
+   "fila": 110
   },
   {
    "nome": "Gabriel",
@@ -1091,7 +1083,7 @@
    "profissao": "Ditador",
    "status": "fila",
    "fundador": false,
-   "fila": 112
+   "fila": 111
   },
   {
    "nome": "Laura",
@@ -1099,7 +1091,7 @@
    "profissao": "Professora",
    "status": "fila",
    "fundador": false,
-   "fila": 113
+   "fila": 112
   },
   {
    "nome": "Miguel",
@@ -1107,7 +1099,7 @@
    "profissao": "Piloto",
    "status": "fila",
    "fundador": false,
-   "fila": 114
+   "fila": 113
   },
   {
    "nome": "Matheus",
@@ -1115,7 +1107,7 @@
    "profissao": "Operador de máquina",
    "status": "fila",
    "fundador": false,
-   "fila": 115
+   "fila": 114
   },
   {
    "nome": "Fabricio",
@@ -1123,7 +1115,7 @@
    "profissao": "Construtor",
    "status": "fila",
    "fundador": false,
-   "fila": 116
+   "fila": 115
   },
   {
    "nome": "Rflu",
@@ -1131,7 +1123,7 @@
    "profissao": "Empresário",
    "status": "fila",
    "fundador": false,
-   "fila": 117
+   "fila": 116
   },
   {
    "nome": "Paulo Henrique",
@@ -1139,7 +1131,7 @@
    "profissao": "Designer de Interiores",
    "status": "fila",
    "fundador": false,
-   "fila": 118
+   "fila": 117
   },
   {
    "nome": "Marcelinho",
@@ -1147,7 +1139,7 @@
    "profissao": "Estudante",
    "status": "fila",
    "fundador": false,
-   "fila": 119
+   "fila": 118
   },
   {
    "nome": "Mdg Dudu",
@@ -1155,7 +1147,7 @@
    "profissao": "Jogador de free fire",
    "status": "fila",
    "fundador": false,
-   "fila": 120
+   "fila": 119
   },
   {
    "nome": "Laurien",
@@ -1163,7 +1155,7 @@
    "profissao": "Advogada criminalista",
    "status": "fila",
    "fundador": false,
-   "fila": 121
+   "fila": 120
   },
   {
    "nome": "Wallace",
@@ -1171,7 +1163,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 122
+   "fila": 121
   },
   {
    "nome": "Kauã",
@@ -1179,7 +1171,7 @@
    "profissao": "Jogador de futebol",
    "status": "fila",
    "fundador": false,
-   "fila": 123
+   "fila": 122
   },
   {
    "nome": "Bernardo",
@@ -1187,7 +1179,7 @@
    "profissao": "Grafiteiro",
    "status": "fila",
    "fundador": false,
-   "fila": 124
+   "fila": 123
   },
   {
    "nome": "Davi Lucas",
@@ -1195,7 +1187,7 @@
    "profissao": "Caminhoneiro",
    "status": "fila",
    "fundador": false,
-   "fila": 125
+   "fila": 124
   },
   {
    "nome": "Rafael",
@@ -1203,7 +1195,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 126
+   "fila": 125
   },
   {
    "nome": "Thaison",
@@ -1211,7 +1203,7 @@
    "profissao": "Medico",
    "status": "fila",
    "fundador": false,
-   "fila": 127
+   "fila": 126
   },
   {
    "nome": "Pietro",
@@ -1219,15 +1211,7 @@
    "profissao": "Jogador de futebol",
    "status": "fila",
    "fundador": false,
-   "fila": 128
-  },
-  {
-   "nome": "Miguel",
-   "ig": "miguel_riicardo_mendonca",
-   "profissao": "Polícia",
-   "status": "fila",
-   "fundador": false,
-   "fila": 129
+   "fila": 127
   },
   {
    "nome": "Agatha",
@@ -1235,7 +1219,7 @@
    "profissao": "Dona do prédio",
    "status": "fila",
    "fundador": false,
-   "fila": 130
+   "fila": 128
   },
   {
    "nome": "Maria Luiza",
@@ -1243,7 +1227,7 @@
    "profissao": "Professora",
    "status": "fila",
    "fundador": false,
-   "fila": 131
+   "fila": 129
   },
   {
    "nome": "Marcos",
@@ -1251,7 +1235,7 @@
    "profissao": "Bonbeiro",
    "status": "fila",
    "fundador": false,
-   "fila": 132
+   "fila": 130
   },
   {
    "nome": "Rauan",
@@ -1259,7 +1243,7 @@
    "profissao": "Atleta",
    "status": "fila",
    "fundador": false,
-   "fila": 133
+   "fila": 131
   },
   {
    "nome": "Ismael Almeida",
@@ -1267,7 +1251,7 @@
    "profissao": "Mecânico",
    "status": "fila",
    "fundador": false,
-   "fila": 134
+   "fila": 132
   },
   {
    "nome": "E",
@@ -1275,7 +1259,7 @@
    "profissao": "eu",
    "status": "fila",
    "fundador": false,
-   "fila": 135
+   "fila": 133
   },
   {
    "nome": "Anthony",
@@ -1283,7 +1267,7 @@
    "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "fila": 136
+   "fila": 134
   },
   {
    "nome": "Luah",
@@ -1291,7 +1275,7 @@
    "profissao": "Médica",
    "status": "fila",
    "fundador": false,
-   "fila": 137
+   "fila": 135
   },
   {
    "nome": "Mellane",
@@ -1299,15 +1283,15 @@
    "profissao": "Padeira",
    "status": "fila",
    "fundador": false,
-   "fila": 138
+   "fila": 136
   },
   {
-   "nome": "Médica",
+   "nome": "Sarah",
    "ig": "s_napolitano10",
-   "profissao": "Sarah",
+   "profissao": "Medica",
    "status": "fila",
    "fundador": false,
-   "fila": 139
+   "fila": 137
   },
   {
    "nome": "Maldozso 777",
@@ -1315,7 +1299,7 @@
    "profissao": "Jogador Famoso",
    "status": "fila",
    "fundador": false,
-   "fila": 140
+   "fila": 138
   },
   {
    "nome": "Rafael",
@@ -1323,7 +1307,7 @@
    "profissao": "Bombeiro",
    "status": "fila",
    "fundador": false,
-   "fila": 141
+   "fila": 139
   },
   {
    "nome": "Marcelo",
@@ -1331,15 +1315,15 @@
    "profissao": "Poliisia",
    "status": "fila",
    "fundador": false,
-   "fila": 142
+   "fila": 140
   },
   {
-   "nome": "031 Biel 01",
+   "nome": "031 Biel",
    "ig": "031_biel_01",
    "profissao": "Médico",
    "status": "fila",
    "fundador": false,
-   "fila": 143
+   "fila": 141
   },
   {
    "nome": "Hellen",
@@ -1347,7 +1331,7 @@
    "profissao": "Artesã",
    "status": "fila",
    "fundador": false,
-   "fila": 144
+   "fila": 142
   },
   {
    "nome": "Caio",
@@ -1355,7 +1339,7 @@
    "profissao": "Polícia",
    "status": "fila",
    "fundador": false,
-   "fila": 145
+   "fila": 143
   },
   {
    "nome": "Leonardo",
@@ -1363,7 +1347,7 @@
    "profissao": "Ator",
    "status": "fila",
    "fundador": false,
-   "fila": 146
+   "fila": 144
   },
   {
    "nome": "Thalia",
@@ -1371,7 +1355,7 @@
    "profissao": "Advogada",
    "status": "fila",
    "fundador": false,
-   "fila": 147
+   "fila": 145
   },
   {
    "nome": "Enzo",
@@ -1379,7 +1363,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 148
+   "fila": 146
   },
   {
    "nome": "Bruno",
@@ -1387,7 +1371,7 @@
    "profissao": "Músico",
    "status": "fila",
    "fundador": false,
-   "fila": 149
+   "fila": 147
   },
   {
    "nome": "Arthur",
@@ -1395,7 +1379,7 @@
    "profissao": "Taekwondista",
    "status": "fila",
    "fundador": false,
-   "fila": 150
+   "fila": 148
   },
   {
    "nome": "Hadassa",
@@ -1403,7 +1387,7 @@
    "profissao": "Juíza",
    "status": "fila",
    "fundador": false,
-   "fila": 151
+   "fila": 149
   },
   {
    "nome": "Pedro",
@@ -1411,7 +1395,7 @@
    "profissao": "Fazendeiro",
    "status": "fila",
    "fundador": false,
-   "fila": 152
+   "fila": 150
   },
   {
    "nome": "Narrylla",
@@ -1419,7 +1403,7 @@
    "profissao": "Perita criminal",
    "status": "fila",
    "fundador": false,
-   "fila": 153
+   "fila": 151
   },
   {
    "nome": "Izadora",
@@ -1427,7 +1411,7 @@
    "profissao": "Biologa",
    "status": "fila",
    "fundador": false,
-   "fila": 154
+   "fila": 152
   },
   {
    "nome": "Rafael",
@@ -1435,7 +1419,7 @@
    "profissao": "Mecânico",
    "status": "fila",
    "fundador": false,
-   "fila": 155
+   "fila": 153
   },
   {
    "nome": "Ryan",
@@ -1443,7 +1427,7 @@
    "profissao": "Biólogo de répteis",
    "status": "fila",
    "fundador": false,
-   "fila": 156
+   "fila": 154
   },
   {
    "nome": "Henrique",
@@ -1451,7 +1435,7 @@
    "profissao": "Veterinario",
    "status": "fila",
    "fundador": false,
-   "fila": 157
+   "fila": 155
   },
   {
    "nome": "Victor",
@@ -1459,7 +1443,7 @@
    "profissao": "Engenheiro",
    "status": "fila",
    "fundador": false,
-   "fila": 158
+   "fila": 156
   },
   {
    "nome": "Eu",
@@ -1467,7 +1451,7 @@
    "profissao": "tbm",
    "status": "fila",
    "fundador": false,
-   "fila": 159
+   "fila": 157
   },
   {
    "nome": "Guilherme",
@@ -1475,7 +1459,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 160
+   "fila": 158
   },
   {
    "nome": "Renan",
@@ -1483,7 +1467,7 @@
    "profissao": "Professor",
    "status": "fila",
    "fundador": false,
-   "fila": 161
+   "fila": 159
   },
   {
    "nome": "Vitor",
@@ -1491,7 +1475,7 @@
    "profissao": "Engenheiro",
    "status": "fila",
    "fundador": false,
-   "fila": 162
+   "fila": 160
   },
   {
    "nome": "Linaeten",
@@ -1499,7 +1483,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 163
+   "fila": 161
   },
   {
    "nome": "Jack",
@@ -1507,7 +1491,7 @@
    "profissao": "Pm",
    "status": "fila",
    "fundador": false,
-   "fila": 164
+   "fila": 162
   },
   {
    "nome": "Davi",
@@ -1515,7 +1499,7 @@
    "profissao": "Jardineiro",
    "status": "fila",
    "fundador": false,
-   "fila": 165
+   "fila": 163
   },
   {
    "nome": "Bernardo",
@@ -1523,7 +1507,7 @@
    "profissao": "Arquiteto",
    "status": "fila",
    "fundador": false,
-   "fila": 166
+   "fila": 164
   },
   {
    "nome": "Nathally",
@@ -1531,7 +1515,7 @@
    "profissao": "Lutadora",
    "status": "fila",
    "fundador": false,
-   "fila": 167
+   "fila": 165
   },
   {
    "nome": "Manu",
@@ -1539,7 +1523,7 @@
    "profissao": "Advogada",
    "status": "fila",
    "fundador": false,
-   "fila": 168
+   "fila": 166
   },
   {
    "nome": "Brayan",
@@ -1547,7 +1531,7 @@
    "profissao": "Segurança",
    "status": "fila",
    "fundador": false,
-   "fila": 169
+   "fila": 167
   },
   {
    "nome": "Arthur Martini",
@@ -1555,7 +1539,7 @@
    "profissao": "Mecânico",
    "status": "fila",
    "fundador": false,
-   "fila": 170
+   "fila": 168
   },
   {
    "nome": "Junior",
@@ -1563,7 +1547,7 @@
    "profissao": "Engenheiro",
    "status": "fila",
    "fundador": false,
-   "fila": 171
+   "fila": 169
   },
   {
    "nome": "Samuel",
@@ -1571,7 +1555,7 @@
    "profissao": "Motoboy",
    "status": "fila",
    "fundador": false,
-   "fila": 172
+   "fila": 170
   },
   {
    "nome": "Julia",
@@ -1579,7 +1563,7 @@
    "profissao": "Lutadora de jiu-jítsu",
    "status": "fila",
    "fundador": false,
-   "fila": 173
+   "fila": 171
   },
   {
    "nome": "Helio",
@@ -1587,7 +1571,7 @@
    "profissao": "Mecanico",
    "status": "fila",
    "fundador": false,
-   "fila": 174
+   "fila": 172
   },
   {
    "nome": "Nycollasgabriel",
@@ -1595,7 +1579,7 @@
    "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "fila": 175
+   "fila": 173
   },
   {
    "nome": "Marcos",
@@ -1603,7 +1587,7 @@
    "profissao": "Agente da PRF",
    "status": "fila",
    "fundador": false,
-   "fila": 176
+   "fila": 174
   },
   {
    "nome": "Drax",
@@ -1611,7 +1595,7 @@
    "profissao": "Arquiteto",
    "status": "fila",
    "fundador": false,
-   "fila": 177
+   "fila": 175
   },
   {
    "nome": "Kamyla",
@@ -1619,7 +1603,7 @@
    "profissao": "Psicanalista",
    "status": "fila",
    "fundador": false,
-   "fila": 178
+   "fila": 176
   },
   {
    "nome": "Enzo",
@@ -1627,7 +1611,7 @@
    "profissao": "Dublador",
    "status": "fila",
    "fundador": false,
-   "fila": 179
+   "fila": 177
   },
   {
    "nome": "Ana",
@@ -1635,7 +1619,7 @@
    "profissao": "Atriz",
    "status": "fila",
    "fundador": false,
-   "fila": 180
+   "fila": 178
   },
   {
    "nome": "Leandro",
@@ -1643,7 +1627,7 @@
    "profissao": "244",
    "status": "fila",
    "fundador": false,
-   "fila": 181
+   "fila": 179
   },
   {
    "nome": "Sofia",
@@ -1651,7 +1635,7 @@
    "profissao": "Engenheira",
    "status": "fila",
    "fundador": false,
-   "fila": 182
+   "fila": 180
   },
   {
    "nome": "Gustavo",
@@ -1659,7 +1643,7 @@
    "profissao": "Seguros",
    "status": "fila",
    "fundador": false,
-   "fila": 183
+   "fila": 181
   },
   {
    "nome": "Raphael",
@@ -1667,7 +1651,7 @@
    "profissao": "Aluno",
    "status": "fila",
    "fundador": false,
-   "fila": 184
+   "fila": 182
   },
   {
    "nome": "MAria Isabella",
@@ -1675,7 +1659,7 @@
    "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "fila": 185
+   "fila": 183
   },
   {
    "nome": "Davi",
@@ -1683,7 +1667,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 186
+   "fila": 184
   },
   {
    "nome": "Gabriel",
@@ -1691,7 +1675,7 @@
    "profissao": "Cartomante",
    "status": "fila",
    "fundador": false,
-   "fila": 187
+   "fila": 185
   },
   {
    "nome": "Alves",
@@ -1699,7 +1683,7 @@
    "profissao": "Advogado criminalista",
    "status": "fila",
    "fundador": false,
-   "fila": 188
+   "fila": 186
   },
   {
    "nome": "Breno",
@@ -1707,7 +1691,7 @@
    "profissao": "Veterinário",
    "status": "fila",
    "fundador": false,
-   "fila": 189
+   "fila": 187
   },
   {
    "nome": "Theo",
@@ -1715,7 +1699,7 @@
    "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "fila": 190
+   "fila": 188
   },
   {
    "nome": "Gustavo",
@@ -1723,15 +1707,7 @@
    "profissao": "Videomaker e fotógrafo",
    "status": "fila",
    "fundador": false,
-   "fila": 191
-  },
-  {
-   "nome": "Miguel",
-   "ig": "miguel_tr3m7x_ofc",
-   "profissao": "Pedreiro",
-   "status": "fila",
-   "fundador": false,
-   "fila": 192
+   "fila": 189
   },
   {
    "nome": "Luan Pedro",
@@ -1739,7 +1715,7 @@
    "profissao": "Mecânico",
    "status": "fila",
    "fundador": false,
-   "fila": 193
+   "fila": 190
   },
   {
    "nome": "Rebeca",
@@ -1747,7 +1723,7 @@
    "profissao": "Desempregada",
    "status": "fila",
    "fundador": false,
-   "fila": 194
+   "fila": 191
   },
   {
    "nome": "Bryan",
@@ -1755,7 +1731,7 @@
    "profissao": "Empresário",
    "status": "fila",
    "fundador": false,
-   "fila": 195
+   "fila": 192
   },
   {
    "nome": "Jhulya",
@@ -1763,7 +1739,7 @@
    "profissao": "Chefe de cozinha",
    "status": "fila",
    "fundador": false,
-   "fila": 196
+   "fila": 193
   },
   {
    "nome": "Miguel.h.bjj",
@@ -1771,7 +1747,7 @@
    "profissao": "Musico",
    "status": "fila",
    "fundador": false,
-   "fila": 197
+   "fila": 194
   },
   {
    "nome": "Emanuel",
@@ -1779,7 +1755,7 @@
    "profissao": "Professor",
    "status": "fila",
    "fundador": false,
-   "fila": 198
+   "fila": 195
   },
   {
    "nome": "João",
@@ -1787,7 +1763,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 199
+   "fila": 196
   },
   {
    "nome": "Miguel",
@@ -1795,7 +1771,7 @@
    "profissao": "Youtuber",
    "status": "fila",
    "fundador": false,
-   "fila": 200
+   "fila": 197
   },
   {
    "nome": "Maria Sophia",
@@ -1803,7 +1779,7 @@
    "profissao": "Empreendedora",
    "status": "fila",
    "fundador": false,
-   "fila": 201
+   "fila": 198
   },
   {
    "nome": "Reserva Silva",
@@ -1811,7 +1787,7 @@
    "profissao": "Jogador de futebol",
    "status": "fila",
    "fundador": false,
-   "fila": 202
+   "fila": 199
   },
   {
    "nome": "Lorena",
@@ -1819,7 +1795,7 @@
    "profissao": "Diretora",
    "status": "fila",
    "fundador": false,
-   "fila": 203
+   "fila": 200
   },
   {
    "nome": "Drielly",
@@ -1827,7 +1803,7 @@
    "profissao": "Medica",
    "status": "fila",
    "fundador": false,
-   "fila": 204
+   "fila": 201
   },
   {
    "nome": "Blessed",
@@ -1835,7 +1811,7 @@
    "profissao": "Encanador",
    "status": "fila",
    "fundador": false,
-   "fila": 205
+   "fila": 202
   },
   {
    "nome": "Felipinnf",
@@ -1843,7 +1819,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 206
+   "fila": 203
   },
   {
    "nome": "Pink Berry",
@@ -1851,7 +1827,7 @@
    "profissao": "Médica",
    "status": "fila",
    "fundador": false,
-   "fila": 207
+   "fila": 204
   },
   {
    "nome": "Vitiix",
@@ -1859,7 +1835,7 @@
    "profissao": "Jogador de futebol",
    "status": "fila",
    "fundador": false,
-   "fila": 208
+   "fila": 205
   },
   {
    "nome": "Caleb",
@@ -1867,7 +1843,7 @@
    "profissao": "Empresário",
    "status": "fila",
    "fundador": false,
-   "fila": 209
+   "fila": 206
   },
   {
    "nome": "Petraa",
@@ -1875,7 +1851,7 @@
    "profissao": "Veterinária",
    "status": "fila",
    "fundador": false,
-   "fila": 210
+   "fila": 207
   },
   {
    "nome": "Guilherme",
@@ -1883,7 +1859,7 @@
    "profissao": "Jogador de futebol",
    "status": "fila",
    "fundador": false,
-   "fila": 211
+   "fila": 208
   },
   {
    "nome": "Rebeca",
@@ -1891,7 +1867,7 @@
    "profissao": "Estudande",
    "status": "fila",
    "fundador": false,
-   "fila": 212
+   "fila": 209
   },
   {
    "nome": "Diogo",
@@ -1899,7 +1875,7 @@
    "profissao": "Policia do BOPE",
    "status": "fila",
    "fundador": false,
-   "fila": 213
+   "fila": 210
   },
   {
    "nome": "Taci18588",
@@ -1907,7 +1883,7 @@
    "profissao": "Policial militar",
    "status": "fila",
    "fundador": false,
-   "fila": 214
+   "fila": 211
   },
   {
    "nome": "Aa Maria",
@@ -1915,7 +1891,7 @@
    "profissao": "Advogada",
    "status": "fila",
    "fundador": false,
-   "fila": 215
+   "fila": 212
   },
   {
    "nome": "Victor Valentim",
@@ -1923,7 +1899,7 @@
    "profissao": "Jogador de futebol",
    "status": "fila",
    "fundador": false,
-   "fila": 216
+   "fila": 213
   },
   {
    "nome": "Pvd Mari",
@@ -1931,7 +1907,7 @@
    "profissao": "Veterinária",
    "status": "fila",
    "fundador": false,
-   "fila": 217
+   "fila": 214
   },
   {
    "nome": "Mirela",
@@ -1939,7 +1915,7 @@
    "profissao": "Estilista",
    "status": "fila",
    "fundador": false,
-   "fila": 218
+   "fila": 215
   },
   {
    "nome": "Melissa",
@@ -1947,7 +1923,7 @@
    "profissao": "Perita criminal",
    "status": "fila",
    "fundador": false,
-   "fila": 219
+   "fila": 216
   },
   {
    "nome": "Davi",
@@ -1955,7 +1931,7 @@
    "profissao": "Preparador de carros de arrancada",
    "status": "fila",
    "fundador": false,
-   "fila": 220
+   "fila": 217
   },
   {
    "nome": "João Pedro",
@@ -1963,7 +1939,7 @@
    "profissao": "Jornalista",
    "status": "fila",
    "fundador": false,
-   "fila": 221
+   "fila": 218
   },
   {
    "nome": "23 Atentado",
@@ -1971,7 +1947,7 @@
    "profissao": "Lutador",
    "status": "fila",
    "fundador": false,
-   "fila": 222
+   "fila": 219
   },
   {
    "nome": "Enzo",
@@ -1979,7 +1955,7 @@
    "profissao": "Jogador de futebol e Medico",
    "status": "fila",
    "fundador": false,
-   "fila": 223
+   "fila": 220
   },
   {
    "nome": "Alex",
@@ -1987,7 +1963,7 @@
    "profissao": "Marceneiro",
    "status": "fila",
    "fundador": false,
-   "fila": 224
+   "fila": 221
   },
   {
    "nome": "Ingrid Nogueira",
@@ -1995,15 +1971,7 @@
    "profissao": "Professora",
    "status": "fila",
    "fundador": false,
-   "fila": 225
-  },
-  {
-   "nome": "John",
-   "ig": "zero.kkkkkkj",
-   "profissao": "Gamer",
-   "status": "fila",
-   "fundador": false,
-   "fila": 226
+   "fila": 222
   },
   {
    "nome": "Danilo",
@@ -2011,7 +1979,7 @@
    "profissao": "Advogado",
    "status": "fila",
    "fundador": false,
-   "fila": 227
+   "fila": 223
   },
   {
    "nome": "Isaaczin",
@@ -2019,7 +1987,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 228
+   "fila": 224
   },
   {
    "nome": "Arthur Ribeiro",
@@ -2027,7 +1995,7 @@
    "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "fila": 229
+   "fila": 225
   },
   {
    "nome": "Isaac",
@@ -2035,7 +2003,7 @@
    "profissao": "Jogador de futebol",
    "status": "fila",
    "fundador": false,
-   "fila": 230
+   "fila": 226
   },
   {
    "nome": "Emerson",
@@ -2043,7 +2011,7 @@
    "profissao": "Pedreiro",
    "status": "fila",
    "fundador": false,
-   "fila": 231
+   "fila": 227
   },
   {
    "nome": "Gustavo",
@@ -2051,7 +2019,7 @@
    "profissao": "Jogador de futebol",
    "status": "fila",
    "fundador": false,
-   "fila": 232
+   "fila": 228
   },
   {
    "nome": "Busk FK",
@@ -2059,7 +2027,7 @@
    "profissao": "Motorista de ônibus",
    "status": "fila",
    "fundador": false,
-   "fila": 233
+   "fila": 229
   },
   {
    "nome": "Maria das Dores",
@@ -2067,7 +2035,7 @@
    "profissao": "Vendedora",
    "status": "fila",
    "fundador": false,
-   "fila": 234
+   "fila": 230
   },
   {
    "nome": "Lavinia",
@@ -2075,7 +2043,7 @@
    "profissao": "Profissional de saúde",
    "status": "fila",
    "fundador": false,
-   "fila": 235
+   "fila": 231
   },
   {
    "nome": "Erick",
@@ -2083,7 +2051,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 236
+   "fila": 232
   },
   {
    "nome": "Brenda",
@@ -2091,7 +2059,7 @@
    "profissao": "Advogada",
    "status": "fila",
    "fundador": false,
-   "fila": 237
+   "fila": 233
   },
   {
    "nome": "Sthefany",
@@ -2099,7 +2067,7 @@
    "profissao": "Faxineira",
    "status": "fila",
    "fundador": false,
-   "fila": 238
+   "fila": 234
   },
   {
    "nome": "Davi 777",
@@ -2107,7 +2075,7 @@
    "profissao": "Militar do exército",
    "status": "fila",
    "fundador": false,
-   "fila": 239
+   "fila": 235
   },
   {
    "nome": "Davi",
@@ -2115,7 +2083,7 @@
    "profissao": "Polícia militar",
    "status": "fila",
    "fundador": false,
-   "fila": 240
+   "fila": 236
   },
   {
    "nome": "Marcos Dias",
@@ -2123,7 +2091,7 @@
    "profissao": "Professor",
    "status": "fila",
    "fundador": false,
-   "fila": 241
+   "fila": 237
   },
   {
    "nome": "Rafael elias",
@@ -2131,7 +2099,7 @@
    "profissao": "Sushiman",
    "status": "fila",
    "fundador": false,
-   "fila": 242
+   "fila": 238
   },
   {
    "nome": "Henzo Lopes",
@@ -2139,7 +2107,7 @@
    "profissao": "Professor de taekwondo",
    "status": "fila",
    "fundador": false,
-   "fila": 243
+   "fila": 239
   },
   {
    "nome": "Pedro",
@@ -2147,7 +2115,7 @@
    "profissao": "Jogador de futebol",
    "status": "fila",
    "fundador": false,
-   "fila": 244
+   "fila": 240
   },
   {
    "nome": "Caleb",
@@ -2155,7 +2123,7 @@
    "profissao": "Soldado do exército",
    "status": "fila",
    "fundador": false,
-   "fila": 245
+   "fila": 241
   },
   {
    "nome": "Paulo Henrique",
@@ -2163,7 +2131,7 @@
    "profissao": "Professor",
    "status": "fila",
    "fundador": false,
-   "fila": 246
+   "fila": 242
   },
   {
    "nome": "Wagner Leite",
@@ -2171,7 +2139,7 @@
    "profissao": "Policial",
    "status": "fila",
    "fundador": false,
-   "fila": 247
+   "fila": 243
   },
   {
    "nome": "Sarah",
@@ -2179,7 +2147,7 @@
    "profissao": "Professora de educação Fisica",
    "status": "fila",
    "fundador": false,
-   "fila": 248
+   "fila": 244
   },
   {
    "nome": "João",
@@ -2187,7 +2155,7 @@
    "profissao": "Jogador",
    "status": "fila",
    "fundador": false,
-   "fila": 249
+   "fila": 245
   },
   {
    "nome": "Davi Luiz",
@@ -2195,7 +2163,7 @@
    "profissao": "Cientista da NASA",
    "status": "fila",
    "fundador": false,
-   "fila": 250
+   "fila": 246
   },
   {
    "nome": "Sarinha kerolyzinha",
@@ -2203,7 +2171,7 @@
    "profissao": "Dentista",
    "status": "fila",
    "fundador": false,
-   "fila": 251
+   "fila": 247
   },
   {
    "nome": "Luís",
@@ -2211,7 +2179,63 @@
    "profissao": "borracheiro",
    "status": "fila",
    "fundador": false,
+   "fila": 248
+  },
+  {
+   "nome": "Guilherme",
+   "ig": "fonsecaxxz__",
+   "profissao": "perito criminal",
+   "status": "fila",
+   "fundador": false,
+   "fila": 249
+  },
+  {
+   "nome": "Irah",
+   "ig": "irah__costa_",
+   "profissao": "médica",
+   "status": "fila",
+   "fundador": false,
+   "fila": 250
+  },
+  {
+   "nome": "Brandaliseyuri",
+   "ig": "brandaliseyuri",
+   "profissao": "Jogador de futebol",
+   "status": "fila",
+   "fundador": false,
+   "fila": 251
+  },
+  {
+   "nome": "Maria",
+   "ig": "567_mariyy",
+   "profissao": "Professora",
+   "status": "fila",
+   "fundador": false,
    "fila": 252
+  },
+  {
+   "nome": "Julio",
+   "ig": "juliosalomao01",
+   "profissao": "Caminhoneiro",
+   "status": "fila",
+   "fundador": false,
+   "fila": 253
+  },
+  {
+   "nome": "Valentina",
+   "ig": "valen__valentina",
+   "profissao": "Estudante",
+   "status": "fila",
+   "fundador": false,
+   "fila": 254
+  },
+  {
+   "nome": "Eduardo",
+   "ig": "_.dudux_x",
+   "profissao": "Médico",
+   "status": "fila",
+   "fundador": false,
+   "fila": 255
   }
  ],
  "apoiadores": [],
@@ -2284,6 +2308,15 @@
    "resumo": "Um guindaste apareceu no terreno: o Bloco B já subiu até o 12º andar. 224 barracas assistem lá de fora, o Kai é o nº 1 da fila e o Walace conferiu o prumo. Só que o 704 foi vendido duas vezes.",
    "abertura": 245,
    "link": "https://www.instagram.com/reel/DgKfAy8R8Qg/"
+  },
+  {
+   "n": 4,
+   "titulo": "Multa na fila",
+   "data": "26/11/2026",
+   "publicado": true,
+   "resumo": "O Síndico multou 255 barracas antes do café, até a bola do João bater no poste e acertar o síndico em cheio: o bloco de multas voou até o 13º andar e a fila gritou GOL. Faltam 24 para o Bloco B abrir. De madrugada, dois caminhões de mudança chegaram com a mesma chave do 704.",
+   "abertura": 276,
+   "link": "https://www.instagram.com/reel/DgMxVK1x5v-/"
   }
  ],
  "capitulos": [
@@ -2336,6 +2369,20 @@
    ],
    "data": "25/11/2026",
    "abertura": 245
+  },
+  {
+   "n": 5,
+   "titulo": "Multa na fila",
+   "ep": 4,
+   "aberto": true,
+   "texto": [
+    "Mal passei o café e o Dr. Valdemar já estava lá fora de prancheta na mão. Barraca torta, multa. Varal no muro, multa. Fogareiro, multa. Quando contei, eram duzentas e cinquenta e cinco. Todas 'no regimento'.",
+    "Foi aí que o João, jogador lá da fila, resolveu esticar as pernas. Chutou a bola pro alto, ela bateu no poste e voltou direto no síndico. Ninguém se machucou, só o orgulho dele.",
+    "O bloco de multas voou longe e foi parar no décimo terceiro andar da obra. O acampamento inteiro gritou GOL. Faltam vinte e quatro para o Bloco B abrir.",
+    "De madrugada, porém, chegaram dois caminhões de mudança. Os dois com a mesma chave do 704. Anotei no livro e fiquei olhando a janela piscar."
+   ],
+   "data": "26/11/2026",
+   "abertura": 276
   }
  ],
  "misterios": [
