@@ -3,6 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Blindagem do frontend: a página só conversa com o próprio site e com o Apps Script.
+     Também impede que a URL de envio vaze pelo cabeçalho Referer para outros sites. -->
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https://script.google.com https://script.googleusercontent.com; form-action 'self'">
 <title>Meu Comentário, Minha Casa · Edifício 8 Bits</title>
 <meta name="description" content="Cada comentário acende uma janela. Uma série em pixel art no Instagram onde quem comenta ganha um apartamento.">
 <link rel="icon" href="favicon.ico" sizes="any">
@@ -525,8 +529,8 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
       <div class="cab"><span class="placa">CAIXA DE SUGESTÕES DA PORTARIA</span><h2 style="margin-top:14px">Deixe sua ideia com o porteiro</h2><p>Muita coisa deste prédio vai sair de vocês: tretas, obras, vizinhos novos. O porteiro lê tudo e leva para a próxima história.</p></div>
       <div class="caixa-sug">
         <div class="urna" aria-hidden="true"><div class="fenda-urna"></div><span>SUGESTÕES</span><div class="papel-cai" id="papelCai"></div></div>
-        <form id="formSug" novalidate>
-          <div class="armadilha" aria-hidden="true"><label for="sugSite">Não preencha</label><input type="text" id="sugSite" name="site" tabindex="-1" autocomplete="off"></div>
+        <form id="formSug" novalidate autocomplete="off" autocapitalize="off" spellcheck="false">
+          <div class="armadilha" aria-hidden="true"><label for="sugSite">Não preencha</label><input type="text" id="sugSite" name="site" tabindex="-1" autocomplete="off" aria-hidden="true"></div>
           <fieldset class="tipos"><legend>O que você quer sugerir?</legend>
             <label class="tipo"><input type="radio" name="tipo" value="Quero ser um vizinho" checked><svg viewBox="0 0 7 7" width="36" height="36" fill="#FFD25A" aria-hidden="true" shape-rendering="crispEdges"><rect x="2" y="0" width="1" height="1"/><rect x="3" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="3" y="2" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="5" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="6" y="4" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></svg><span>Quero ser um vizinho</span></label>
             <label class="tipo"><input type="radio" name="tipo" value="Ideia de treta"><svg viewBox="0 0 7 7" width="36" height="36" fill="#E63946" aria-hidden="true" shape-rendering="crispEdges"><rect x="0" y="0" width="1" height="1"/><rect x="1" y="0" width="1" height="1"/><rect x="2" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="5" y="1" width="1" height="1"/><rect x="6" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="6" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="6" y="3" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="6" y="4" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="5" y="5" width="1" height="1"/><rect x="6" y="5" width="1" height="1"/></svg><span>Ideia de treta</span></label>
@@ -534,7 +538,7 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
             <label class="tipo"><input type="radio" name="tipo" value="Reclamação pro síndico"><svg viewBox="0 0 7 7" width="36" height="36" fill="#F2ECDD" aria-hidden="true" shape-rendering="crispEdges"><rect x="1" y="0" width="1" height="1"/><rect x="2" y="0" width="1" height="1"/><rect x="3" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="5" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="6" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="3" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="6" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="6" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="6" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="6" y="5" width="1" height="1"/><rect x="1" y="6" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/><rect x="3" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/><rect x="5" y="6" width="1" height="1"/></svg><span>Reclamação pro síndico</span></label>
           </fieldset>
           <label for="sugIg" class="rot">Seu @ no Instagram</label>
-          <input type="text" id="sugIg" placeholder="@seunome" autocomplete="off">
+          <input type="text" id="sugIg" placeholder="@seunome" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="30" inputmode="text">
           <label for="sugTxt" class="rot" id="sugDica">Conte quem você seria no prédio</label>
           <textarea id="sugTxt" rows="5" maxlength="1000" placeholder="Ex.: sou a vizinha que rega as plantas do hall e sabe o nome de todo cachorro do prédio."></textarea>
           <p class="legenda" style="text-align:right;margin:4px 0 0"><span id="sugCont">0</span>/1000</p>
@@ -921,10 +925,17 @@ document.getElementById("listaElenco").innerHTML=DADOS.elenco.map(x=>{const n=Nu
 
 
 /* ===== Caixa de sugestões → Google Planilha (Apps Script) ===== */
-(function(){const URL_CAIXA="https://script.google.com/macros/s/AKfycbwJjM70ZuTdSDcgXWqLQTaQxvCTfZGIijFIV5w7SpEx9OJNMOuVywb-PPhJ6oUXkHlS/exec";
+(function(){
+  /* Endpoint em base64 + blindagem: a URL não fica pronta no código-fonte (scrapers
+     de bot caçam "/macros/s/..." no HTML) e cada envio passa por honeypot, tempo
+     mínimo de preenchimento, 1 ideia/min por navegador, teto de tentativas,
+     timeout de 15 s e validação/sanitização dos campos. */
+  const URL_CAIXA=atob("aHR0cHM6Ly9zY3JpcHQuZ29vZ2xlLmNvbS9tYWNyb3Mvcy9BS2Z5Y2J3SmpNNzBadVRkU0RjZ1hXcUxRVGFReHZDVGZaR0lpakZJVjV3N1NwRXg5T0pOTU91Vnl3Yi1QUGhKNm9VWGtIbFMvZXhlYw==");
   const f=document.getElementById("formSug"),txt=document.getElementById("sugTxt"),ig=document.getElementById("sugIg"),
   err=document.getElementById("sugErro"),st=document.getElementById("sugStatus"),dica=document.getElementById("sugDica"),
   btn=document.getElementById("sugEnviar"),armadilha=document.getElementById("sugSite");
+  const CHAVE="e8b.sug.ultimo",ESPERA_MS=60000,MINIMO_MS=2500,MAX_TXT=1000,MAX_REDE=6,T0=Date.now();
+  let primeiroToque=0,enviando=false,tentativas=0;
   const DICAS={"Quero ser um vizinho":["Conte quem você seria no prédio","Ex.: sou a vizinha que rega as plantas do hall e sabe o nome de todo cachorro do prédio."],
     "Ideia de treta":["Qual confusão o elenco deveria viver?","Ex.: o síndico instala uma catraca no elevador e a vizinha do 302 trava ela com a caixa de som."],
     "Obra nova":["O que o condomínio deveria ganhar?","Ex.: uma horta no terraço que o síndico quer cobrar aluguel."],
@@ -933,30 +944,51 @@ document.getElementById("listaElenco").innerHTML=DADOS.elenco.map(x=>{const n=Nu
   f.addEventListener("change",e=>{if(e.target.name==="tipo")mostrarDica(e.target.value)});
   txt.addEventListener("input",()=>{document.getElementById("sugCont").textContent=txt.value.length;err.textContent=""});
   ig.addEventListener("input",()=>{err.textContent=""});
+  f.addEventListener("focusin",()=>{if(!primeiroToque)primeiroToque=Date.now()},{passive:true});
+  const ARROBA=/^[A-Za-z0-9._]{1,30}$/;
+  function limpar(s){return String(s||"").replace(/[\u0000-\u001F\u007F]/g," ").replace(/\s+/g," ").trim()}
+  function celula(s){return /^[=+\-]/.test(s)?"'"+s:s}   /* ideia enviada nunca vira fórmula na planilha */
+  function ultimoEnvio(){try{return parseInt(localStorage.getItem(CHAVE)||"0",10)||0}catch(x){return 0}}
+  function marcarEnvio(){try{localStorage.setItem(CHAVE,String(Date.now()))}catch(x){}}
   function validar(){const tipo=f.querySelector("input[name=tipo]:checked").value;
-    if(!ig.value.trim()){err.textContent="Digite seu @ para o porteiro saber de quem é a ideia.";ig.focus();return null}
-    if(txt.value.trim().length<10){err.textContent="Conte um pouco mais (pelo menos 10 letras).";txt.focus();return null}
-    return {tipo,ig:"@"+ig.value.trim().replace(/^@/,""),texto:txt.value.trim()}}
+    const arroba=limpar(ig.value).replace(/^@+/,"");
+    if(!arroba){err.textContent="Digite seu @ para o porteiro saber de quem é a ideia.";ig.focus();return null}
+    if(!ARROBA.test(arroba)){err.textContent="No @ só valem letras, números, ponto e _ (até 30).";ig.focus();return null}
+    const texto=limpar(txt.value).slice(0,MAX_TXT);
+    if(texto.length<10){err.textContent="Conte um pouco mais (pelo menos 10 letras).";txt.focus();return null}
+    return {tipo,ig:"@"+arroba,texto}}
   function animar(){if(reduzir)return;const p=document.getElementById("papelCai");p.classList.remove("vai");void p.offsetWidth;p.classList.add("vai")}
   function guardado(){animar();st.textContent="O porteiro guardou sua ideia! 📝";f.reset();
     document.getElementById("sugCont").textContent="0";mostrarDica(f.querySelector("input[name=tipo]:checked").value)}
-  let enviando=false;
-  f.addEventListener("submit",async e=>{e.preventDefault();if(enviando)return;const v=validar();if(!v)return;
-    enviando=true;btn.disabled=true;st.textContent="Enviando…";
+  async function postar(v){
+    const ctl=new AbortController(),tRelogio=setTimeout(()=>ctl.abort(),15000);
     try{
-      const r=await fetch(URL_CAIXA,{method:"POST",headers:{"Content-Type":"text/plain;charset=utf-8"},
-        body:JSON.stringify({tipo:v.tipo,ig:v.ig,texto:v.texto,site:armadilha.value})});
-      let corpo=null;try{corpo=await r.text()}catch(x){}
-      if(!corpo){guardado();return}                       /* resposta ilegível: trata como enviado */
-      let j=null;try{j=JSON.parse(corpo)}catch(x){}
-      if(!j){if(r.ok)guardado();else throw new Error("HTTP "+r.status);return}
-      const falhou=j.ok===false||j.sucesso===false||/^(erro|error)$/i.test(j.status||"")||!!(j.erro||j.error);
-      if(!falhou){guardado();return}
-      if(/espera/i.test(JSON.stringify(j)))st.textContent="Calma! Uma ideia por minuto.";
-      else st.textContent="A caixa emperrou. Tente de novo ou use Copiar para comentar.";
-    }catch(x){st.textContent="A caixa emperrou. Tente de novo ou use Copiar para comentar."
-    }finally{enviando=false;btn.disabled=false}});
-  document.getElementById("sugComentar").addEventListener("click",async()=>{const v=validar();if(!v)return;
+      const r=await fetch(URL_CAIXA,{method:"POST",mode:"cors",credentials:"omit",cache:"no-store",redirect:"follow",referrerPolicy:"no-referrer",
+        headers:{"Content-Type":"text/plain;charset=utf-8"},
+        body:JSON.stringify({tipo:v.tipo,ig:v.ig,texto:celula(v.texto),site:armadilha.value,ts:Math.round((Date.now()-T0)/1000)}),signal:ctl.signal});
+      const corpo=await r.text().catch(()=>null);
+      if(!corpo)return (r.ok||r.type==="opaque")?true:"http";   /* Apps Script às vezes responde 302 sem corpo */
+      let j=null;try{j=JSON.parse(corpo)}catch(x){return r.ok?true:"http"}
+      if(j.ok===true||j.sucesso===true)return true;
+      if(j.ok===false||j.sucesso===false||j.erro||j.error||/^(erro|error)$/i.test(j.status||""))return String(j.erro||j.error||j.status||"falhou");
+      return true;
+    }finally{clearTimeout(tRelogio)}
+  }
+  const TEXTO_FALHA="A caixa emperrou. Tente de novo ou use Copiar para comentar.";
+  f.addEventListener("submit",async e=>{e.preventDefault();if(enviando)return;
+    if(armadilha.value.trim()!==""){guardado();return}   /* só bot preenche: finge sucesso e não gasta requisição */
+    const v=validar();if(!v){st.textContent="";return}
+    if(Date.now()-(primeiroToque||T0)<MINIMO_MS){err.textContent="Espere um instante e toque em Deixar na caixa.";return}
+    if(tentativas>=MAX_REDE){st.textContent="A caixa está cheia hoje. Use Copiar para comentar.";return}
+    if(ESPERA_MS-(Date.now()-ultimoEnvio())>0){st.textContent="Calma! Uma ideia por minuto.";return}
+    enviando=true;tentativas++;btn.disabled=true;btn.setAttribute("aria-busy","true");st.textContent="Enviando…";
+    try{
+      const res=await postar(v);
+      if(res===true){marcarEnvio();guardado();return}
+      st.textContent=/espera|minuto|aguard/i.test(String(res))?"Calma! Uma ideia por minuto.":TEXTO_FALHA;
+    }catch(x){st.textContent=(x&&x.name==="AbortError")?"A caixa demorou a responder. Tente de novo.":TEXTO_FALHA
+    }finally{enviando=false;btn.disabled=false;btn.removeAttribute("aria-busy")}});
+  document.getElementById("sugComentar").addEventListener("click",async()=>{const v=validar();if(!v){st.textContent="";return}
     const linha="IDEIA ("+v.tipo+"): "+v.texto;animar();
     try{await navigator.clipboard.writeText(linha);st.innerHTML='Copiado! Cole nos comentários do <a href="https://www.instagram.com/edificio8bits/">último vídeo</a>.'}
     catch(x){st.textContent="Copie e cole nos comentários do último vídeo: "+linha}});

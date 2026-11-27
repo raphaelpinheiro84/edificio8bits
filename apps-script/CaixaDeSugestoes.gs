@@ -21,6 +21,9 @@ var TIMEZONE = 'America/Sao_Paulo';
 var HEADERS = ['data', 'instagram', 'categoria', 'texto', 'status', 'origem'];
 var WAIT_SECONDS = 60; // uma ideia por minuto por @ (igual à mensagem do site)
 var MIN_TEXTO = 10;
+var MIN_SEGUNDOS = 2;  // preenchimento mais rápido que isso = robô
+var TIPOS = ['Quero ser um vizinho', 'Ideia de treta', 'Obra nova', 'Reclamação pro síndico'];
+var ARROBA = /^[A-Za-z0-9._]{1,30}$/;
 
 // ---------------------------------------------------------------------------
 // Entrada
@@ -33,11 +36,16 @@ function doPost(e) {
     // Armadilha anti-bot: campo escondido preenchido = robô. Não grava.
     if (String(dados.site || '').trim()) return resposta({ ok: true, ignorado: true });
 
+    // Tempo de preenchimento (o site manda em segundos). Robô manda 0/1.
+    var ts = Number(dados.ts);
+    if (!isNaN(ts) && ts < MIN_SEGUNDOS) return resposta({ ok: true, ignorado: true });
+
     var tipo = String(dados.tipo || '').trim();
     var ig = String(dados.ig || '').trim().replace(/^@/, '');
     var texto = String(dados.texto || '').trim();
 
-    if (!ig) return resposta({ ok: false, erro: 'informe o @' });
+    if (TIPOS.indexOf(tipo) < 0) tipo = 'geral';
+    if (!ARROBA.test(ig)) return resposta({ ok: false, erro: 'instagram invalido' });
     if (texto.length < MIN_TEXTO) return resposta({ ok: false, erro: 'texto curto demais' });
     if (texto.length > 1000) texto = texto.slice(0, 1000);
 
@@ -58,7 +66,11 @@ function doPost(e) {
     var trava = LockService.getScriptLock();
     trava.waitLock(20000);
     try {
-      aba.appendRow(linha);
+      // setNumberFormat('@') antes de escrever: a ideia é texto, nunca fórmula
+      // (bloqueia injeção tipo =IMPORTXML(...) vinda de um bot).
+      var alvo = aba.getRange(aba.getLastRow() + 1, 1, 1, linha.length);
+      alvo.setNumberFormat('@');
+      alvo.setValues([linha]);
     } finally {
       trava.releaseLock();
     }
@@ -71,12 +83,7 @@ function doPost(e) {
 }
 
 function doGet() {
-  return resposta({
-    ok: true,
-    info: 'Caixa de sugestões do Edifício 8 Bits',
-    planilha: SPREADSHEET_ID,
-    aba: SHEET_NAME
-  });
+  return resposta({ ok: true, info: 'Caixa de sugestões do Edifício 8 Bits' });
 }
 
 // ---------------------------------------------------------------------------
