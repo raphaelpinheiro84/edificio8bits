@@ -2440,6 +2440,13 @@
    "ativo": true
   },
   {
+   "titulo": "O apê vendido duas vezes",
+   "local": "Apto 704 · Bloco B",
+   "texto": "Chegaram duas cartas de 'Bem-vindo ao seu novo lar'. Para o mesmo apartamento.",
+   "ativo": true,
+   "cartas": 2
+  },
+  {
    "titulo": "Lacrada",
    "local": "Chega com o Bloco B",
    "texto": "Etiqueta escrita a lápis: “Construtora”.",

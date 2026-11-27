@@ -216,15 +216,22 @@ p{max-width:62ch}
 .prog p{margin:0;color:var(--texto2);font-size:15px}
 
 /* Caixas de correio */
-.caixas{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
-.caixa{background:#6E7389;border:4px solid #05060F;box-shadow:6px 6px 0 rgba(0,0,0,.45);padding:12px;color:#0F1124}
-.caixa .fenda{height:10px;background:#05060F;margin:0 18px 10px}
-.caixa .etiqueta{background:var(--papel);border:2px solid #05060F;padding:8px 10px}
-.caixa .etiqueta small{font-family:var(--placa);font-size:8px;color:var(--tijolo)}
-.caixa h3{font-size:30px;margin:4px 0;color:var(--tinta)}
-.caixa p{margin:0;font-size:15px;color:var(--tinta)}
+.caixas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:1fr;align-items:stretch;gap:14px;max-width:980px;margin-inline:auto}
+.caixa{position:relative;display:flex;flex-direction:column;min-width:0;background:#6E7389;border:4px solid #05060F;box-shadow:6px 6px 0 rgba(0,0,0,.45);padding:12px;color:#0F1124}
+.caixa .fenda{flex:0 0 auto;height:10px;background:#05060F;margin:0 18px 10px}
+.caixa .etiqueta{flex:1 1 auto;display:flex;flex-direction:column;position:relative;z-index:2;background:var(--papel);border:2px solid #05060F;padding:8px 10px}
+.caixa .etiqueta small{font-family:var(--placa);font-size:8px;color:var(--tijolo);overflow-wrap:anywhere}
+.caixa h3{font-size:30px;line-height:1.05;margin:4px 0;color:var(--tinta);overflow-wrap:break-word}
+.caixa p{margin:0;font-size:15px;line-height:1.35;color:var(--tinta);overflow-wrap:break-word}
 .caixa.lacrada{background:#3F4357}
 .caixa.lacrada .etiqueta{background:#C9C2B0}
+/* Cartas saindo da fenda */
+.caixa .cartas{position:absolute;top:6px;left:50%;display:flex;justify-content:center;align-items:flex-start;gap:8px;width:calc(100% - 44px);height:36px;transform:translateX(-50%);z-index:1;pointer-events:none}
+.caixa .cartas i{display:block;flex:0 0 auto;width:38px;height:30px;background:#FFF8DF;border:2px solid #05060F;box-shadow:2px 2px 0 rgba(0,0,0,.35);background-image:repeating-linear-gradient(to bottom,rgba(15,17,36,.65) 0 2px,transparent 2px 6px);background-size:22px 100%;background-position:8px 8px;background-repeat:no-repeat}
+.caixa .cartas i:first-child{transform:rotate(-9deg)}
+.caixa .cartas i:last-child{transform:rotate(8deg);margin-top:5px}
+@media (max-width:960px){.caixas{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.caixas{gap:10px}.caixa{padding:8px;border-width:3px;box-shadow:4px 4px 0 rgba(0,0,0,.45)}.caixa .fenda{height:8px;margin:0 8px 8px}.caixa .etiqueta{padding:6px 7px}.caixa .etiqueta small{font-size:7px}.caixa h3{font-size:20px;margin:3px 0}.caixa p{font-size:13px;line-height:1.3}.caixa .cartas{top:4px;height:28px;gap:6px;width:calc(100% - 32px)}.caixa .cartas i{width:26px;height:22px;background-size:16px 100%;background-position:5px 6px}}
 
 /* Regulamento */
 .aviso-elev{max-width:640px;background:var(--papel);color:var(--tinta);border:3px solid #05060F;box-shadow:8px 8px 0 #000;transform:rotate(-1deg);padding:22px 24px}
@@ -873,7 +880,7 @@ document.getElementById("formChave").addEventListener("submit",async e=>{e.preve
 /* Só os 3 últimos que já foram ao ar (+ o próximo "em breve", se houver) */
 const epsNoAr=DADOS.episodios.filter(e=>e.abertura!==null),epsTV=[...epsNoAr.slice(-3),...DADOS.episodios.filter(e=>e.abertura===null).slice(0,1)];
 document.getElementById("listaEps").innerHTML=epsTV.map(e=>'<div class="item'+(e.abertura===null?" breve":"")+'"><div class="canal">EP'+e.n+'</div><div><h3>'+esc(e.titulo)+'</h3><p>'+esc(e.data)+(e.abertura!==null?' · '+e.abertura+' moradores na abertura':'')+'</p></div>'+(e.link?'<a class="btn claro" href="'+e.link+'">Ver</a>':'<span class="legenda">em breve</span>')+'</div>').join("");
-document.getElementById("listaElenco").innerHTML=DADOS.elenco.map(x=>'<div class="caixa'+(x.ativo?"":" lacrada")+'"><div class="fenda"></div><div class="etiqueta"><small>'+esc(x.local)+'</small><h3>'+esc(x.titulo)+'</h3><p>'+esc(x.texto)+'</p></div></div>').join("");
+document.getElementById("listaElenco").innerHTML=DADOS.elenco.map(x=>{const n=Number(x.cartas)||0;const cartas=n?'<div class="cartas" aria-hidden="true">'+'<i></i>'.repeat(n)+'</div>':"";return '<div class="caixa'+(x.ativo?"":" lacrada")+'"><div class="fenda"></div>'+cartas+'<div class="etiqueta"><small>'+esc(x.local)+'</small><h3>'+esc(x.titulo)+'</h3><p>'+esc(x.texto)+'</p></div></div>';}).join("");
 
 
 /* ===== Área de lazer ===== */
