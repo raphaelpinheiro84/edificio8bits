@@ -18,7 +18,7 @@
 var SPREADSHEET_ID = '15y6uM8KqGPtVi_TWBNSDnQbpycKoBnXaLrZ9n7ytEO8';
 var SHEET_NAME = 'Sugestões'; // se não existir, é criada na primeira gravação
 var TIMEZONE = 'America/Sao_Paulo';
-var HEADERS = ['data_hora', 'tipo', 'instagram', 'texto', 'origem', 'status'];
+var HEADERS = ['data', 'instagram', 'categoria', 'texto', 'status', 'origem'];
 var WAIT_SECONDS = 60; // uma ideia por minuto por @ (igual à mensagem do site)
 var MIN_TEXTO = 10;
 
@@ -48,11 +48,11 @@ function doPost(e) {
     var aba = abaDeDestino();
     var linha = [
       Utilities.formatDate(new Date(), TIMEZONE, 'yyyy-MM-dd HH:mm:ss'),
-      tipo,
       '@' + ig,
+      tipo,
       texto,
-      'site',
-      'nova'
+      'nova',
+      'site'
     ];
 
     var trava = LockService.getScriptLock();

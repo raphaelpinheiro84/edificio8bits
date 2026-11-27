@@ -43,7 +43,15 @@ quando `ok` é verdadeiro e "A caixa emperrou..." quando `ok` é falso.
 
 ## Colunas gravadas
 
-`data_hora` · `tipo` · `instagram` · `texto` · `origem` · `status`
+`data` · `instagram` · `categoria` · `texto` · `status` · `origem`
 
-`status` nasce como `nova` — é o campo que o comando `/episodio` espera ao ler
-`data/sugestoes.csv` (nova / lida / usada).
+Mesma ordem da aba **Sugestões** da planilha. `status` nasce como `nova` — é o
+campo que o comando `/episodio` espera ao ler `data/sugestoes.csv`
+(nova / lida / usada).
+
+## Ordem das abas (armadilha que já confundiu)
+
+A planilha tem duas abas: `Sheet1` (vazia, primeira) e `Sugestões` (onde os
+dados caem). O link abre na primeira aba, então parece que nada chegou.
+O ideal é **excluir a `Sheet1` vazia** ou arrastar `Sugestões` para a
+posição 1 — o script continua gravando pelo nome da aba, não pela posição.
