@@ -51,7 +51,9 @@ quando `ok` é verdadeiro e "A caixa emperrou..." quando `ok` é falso.
 ## Blindagem do frontend (index.html)
 
 O `#formSug` não chama o `/exec` direto: antes de qualquer requisição ele passa
-por estas travas, e todas valem também no `CaixaDeSugestoes.gs`:
+por estas travas. As que dependem do servidor (honeypot, tempo mínimo, 1 ideia
+por minuto, `@` válido, anti-fórmula) existem **também** no `CaixaDeSugestoes.gs`
+— o frontend sozinho pode ser burlado por quem chama o `/exec` na mão.
 
 | Trava | Onde | O que faz |
 | --- | --- | --- |
