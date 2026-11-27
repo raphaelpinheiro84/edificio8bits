@@ -326,6 +326,11 @@ footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margi
 @keyframes cai{0%{top:-40px;opacity:1}80%{top:16px;opacity:1}100%{top:26px;opacity:0}}
 #formSug{background:var(--papel);color:var(--tinta);border:3px solid #05060F;box-shadow:6px 6px 0 rgba(0,0,0,.45);padding:18px}
 #formSug .legenda{color:#5A5E78}
+/* Status da caixa de sugestões: precisa saltar aos olhos quando a ideia é enviada */
+#formSug #sugStatus:not(:empty){display:block;margin:16px 0 0;padding:14px 16px;background:#05060F;color:var(--brilho);border:3px solid var(--janela);box-shadow:5px 5px 0 rgba(0,0,0,.45);font-family:var(--corpo);font-size:18px;font-weight:600;line-height:1.35;animation:statusEntra .25s ease-out both}
+#formSug #sugStatus a{color:var(--janela)}
+@keyframes statusEntra{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+@media (max-width:560px){#formSug #sugStatus:not(:empty){font-size:16px;padding:12px 13px;box-shadow:4px 4px 0 rgba(0,0,0,.45)}}
 .tipos{border:0;margin:0 0 12px;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
 @media (max-width:560px){.tipos{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .tipos legend{font-family:var(--placa);font-size:8px;margin-bottom:10px}
